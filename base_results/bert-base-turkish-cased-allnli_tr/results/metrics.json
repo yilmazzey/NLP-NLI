@@ -1,0 +1,53 @@
+{
+  "snli_tr_1_1": {
+    "test": {
+      "accuracy": 0.8731,
+      "f1_macro": 0.8725,
+      "f1_per_class": {
+        "entailment": 0.89,
+        "neutral": 0.84,
+        "contradiction": 0.89
+      }
+    }
+  },
+  "multinli_tr_1_1": {
+    "validation_matched": {
+      "accuracy": 0.7983,
+      "f1_macro": 0.7979,
+      "f1_per_class": {
+        "entailment": 0.82,
+        "neutral": 0.76,
+        "contradiction": 0.82
+      }
+    },
+    "validation_mismatched": {
+      "accuracy": 0.8059,
+      "f1_macro": 0.8051,
+      "f1_per_class": {
+        "entailment": 0.82,
+        "neutral": 0.76,
+        "contradiction": 0.83
+      }
+    }
+  },
+  "trglue_mnli": {
+    "test_matched": {
+      "accuracy": 0.7501,
+      "f1_macro": 0.7434,
+      "f1_per_class": {
+        "entailment": 0.83,
+        "neutral": 0.65,
+        "contradiction": 0.74
+      }
+    },
+    "test_mismatched": {
+      "accuracy": 0.8134,
+      "f1_macro": 0.8068,
+      "f1_per_class": {
+        "entailment": 0.89,
+        "neutral": 0.72,
+        "contradiction": 0.81
+      }
+    }
+  }
+}
