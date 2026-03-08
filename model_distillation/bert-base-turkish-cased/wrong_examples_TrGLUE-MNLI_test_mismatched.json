@@ -1,0 +1,1402 @@
+[
+    {
+        "index": 1,
+        "premise": "2018 ve 2020 yılları arasında yavaş yavaş devreye girecek ev cari açığı da bu şekilde azalacak.",
+        "hypothesis": "Ev cari açığı, 2018 ile 2020 arasında düşecek.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 2,
+        "premise": "Tasarımcı Marc Jacobs, Pre-Fall koleksiyonunu sergilemek için 'seçilmiş ailesi' olarak bilinen süper modeli çağırdı.",
+        "hypothesis": "Marc Jacobs, Pre-Fall koleksiyonunu sergilemek için bilinen süper modelleri çağırmadı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 4,
+        "premise": "Belirli yaş gruplarını hedef alan ürünlerdense yaşa bağlı olarak ortaya çıkan cilt kalitesinde azalma, doku bozukluğu ve parlaklık kaybı gibi problemlere odaklanan ürünler ön plana çıkıyor.",
+        "hypothesis": "Cilt yaşlanmasıyla ilgili sorunlara yönelik ürünler daha popüler hale geliyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 6,
+        "premise": "Geride bıraktığımız sezon Türkiye Basketbol Süper Ligi'nde en çok gelişim gösteren oyuncu seçilen Onuralp, EuroCup'ta ise sezonun en iyi ikinci 5'inde yer almıştı.",
+        "hypothesis": "Geçen sezonda Türkiye Basketbol Süper Ligi'nde en çok gelişim gösteren oyuncu seçilen Onuralp, EuroCup'ta da sezonun en iyi ikinci beşine girmişti",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 7,
+        "premise": "Mars'ın burcunuzda ilerleyeceği 2 Şubat'a kadar kişisel ilişkilerinizde ve girişimlerinizde daha cesur ve enerjik olabilirsiniz.",
+        "hypothesis": "Mars'ın burcunuzda ilerlediği dönemde kişisel ilişkilerinizde ve girişimlerinizde daha cesur ve enerjik olabilirsiniz",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 9,
+        "premise": "Ardından tencereye 200 gram çiğ krema ilave edin ve sırasıyla 100 gram tuzsuz krem peynir ya da labne peyniri, 150 gram cheddar ve yarım su bardağı parmesan peyniri ekleyin.",
+        "hypothesis": "Sonra tencereye 200 gram çiğ kremayı kattıktan sonra 100 gram tuzsuz krem peynir veya labne, 150 gram cheddar ve yarım su bardağı parmesan ekleyin.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 10,
+        "premise": "Bu ziyarette Hemingway'den değerli bazı tavsiyelerin yanı sıra bir de kitap listesi alır.",
+        "hypothesis": "Hemingway, bu ziyarette yemek yemiştir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 11,
+        "premise": "20 günün sonunda üzümleriniz dibe çökmüş olacak, bu yüzden tıpkı sirke anası gibi üzümlerinizi de kavanozdan süzerek çıkartın 9.",
+        "hypothesis": "20 günün sonunda üzümler dibe çökmeyecek, yüzeye çıkacaktır",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 12,
+        "premise": "Bu hepimizin ortaklaştığı bir nokta bile değil.",
+        "hypothesis": "Paris, Fransa'nın başkentidir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 13,
+        "premise": "Seyircinin 'deneme' izlemeye ne zamanı ne de parası var artık.",
+        "hypothesis": "İzleyicinin artık deneme içeriklerine ayıracak vakti ve bütçesi yok.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 15,
+        "premise": "Hasta garantili şehir hastaneleri ile mantar gibi çoğalan özel hastaneler ile esnafçı sağlık modeline geçiş yapıldı.",
+        "hypothesis": "Hasta garantili şehir hastaneleri ile mantar gibi çoğalan özel hastaneler nedeniyle esnafçı sağlık modeline geçiş yapıldı.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 17,
+        "premise": "Dokuz senedir yeni parça yayınlamayan grup yine de Norveç synth-pop sahnesi diyince ilk akıllara gelen isimlerden.",
+        "hypothesis": "Norveç synth-pop denince akla ilk gelenler arasında bu grup da var, yeni şarkıları olmasa bile.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 18,
+        "premise": "Çocukların sınırlara hapsolmadan, özgürce çizim yapmasını büyüleyici bulan Junko, 2009 yılından beri çocuklarla atölye çalışmaları yapıyor.",
+        "hypothesis": "Junko, çocuklara özgürce çizim yapmayı büyüleyici buluyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 21,
+        "premise": "Türk kahvesinin bu haline bayılacağınıza şüphem yok.",
+        "hypothesis": "Bu kahvenin çok beğenileceği kesin.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 22,
+        "premise": "Onlar, yazımın başında sözünü ettiğim tedirginliğe hiç kapılmadan, kendi gerçekliklerinin yanılsamasını göğüslerini gere gere savunabiliyorlardı.",
+        "hypothesis": "Bahsettiğim endişeyi hiç hissetmeden, kendi gerçeklik illüzyonlarını gururla savunabiliyorlardı.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 23,
+        "premise": "Kadın giyim seçkisinde ise daha sportif ve prep bir estetik, rahat siluetler, eğlenceli orantılar ve konforlu stillerle hayat buluyor.",
+        "hypothesis": "Kadın giyim koleksiyonunda, sıkı ve resmi bir stil öne çıkıyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 25,
+        "premise": "Doğru ve önemli bir mesajı olsa da hikayenin yenilikçi olduğu söylenemez.",
+        "hypothesis": "Hikaye önemli bir mesaja sahip olsa bile, orijinal olduğu iddia edilemez.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 26,
+        "premise": "Milyonerlerin sabah rutinlerinin olduğunu söylemiştik.",
+        "hypothesis": "Milyonerlerin güne başlamadan önce uyguladıkları alışkanlıklar var demiştik.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 27,
+        "premise": "İç harcı için 1 su bardağı tuzsuz peynir ve ½ demet incecik doğranmış maydanozu bir kasede karıştırın.",
+        "hypothesis": "Harcı için, bir bardak tuzsuz peynir ile yarım demet kıyılmış maydanozu karıştırın.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 28,
+        "premise": "Şamdanın ortasında, diğer mumlardan daha yüksekte duran muma ise shamash ismi veriliyor.",
+        "hypothesis": "Shamash adı, şamdanın ortasındaki ve diğer mumlardan daha yüksekte duran muma verilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 30,
+        "premise": "Akgün, 6 aydır yer arıyoruz yine olmuyor.",
+        "hypothesis": "Akgün için altı aydır bir yer arıyoruz ama yine sonuç alamıyoruz.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 32,
+        "premise": "Büyük otomobil firmaları da daha güvenli yollar olmasına rağmen düşük maliyet ve yüksek verim nedeniyle Thomas Midgley'in patentini kullanmayı tercih ederler.",
+        "hypothesis": "Büyük otomobil firmaları, daha güvenli yollar mevcut olsa da maliyetleri düşürmek ve verimliliği artırmak amacıyla Midgley'in patentini kullanmayı tercih ederler.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 33,
+        "premise": "Düşünceleri okuyan yanınız güçlendikçe kendinize daha çok güveniyor daha az eleştiriyor olacaksınız.",
+        "hypothesis": "Düşünce okuma yeteneği özgüveni artırır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 34,
+        "premise": "Gamescom'da duyurulan son güncelleme ise oyuna biri Osmanlılar olmak üzere iki yeni medeniyet ekliyor.",
+        "hypothesis": "Gamescom'da duyurulan bir sonraki güncelleme ise oyuna yeni bir harita ekliyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 35,
+        "premise": "Sırf kendi iktidarları ölümsüz olsun diye milyonlarca ölüme sebep olmuşlardır.",
+        "hypothesis": "Milyonlarca insan, sadece onların hükümranlığı sonsuza dek sürsün diye öldürüldü.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 36,
+        "premise": "İlk iki sezondan çok daha karanlık temalara eğilen, aile içi dinamiklere daha çok dokunan üçüncü sezon, izleyiciden karşılık bulmuş görünüyor.",
+        "hypothesis": "Üçüncü sezon beğenilmiştir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 37,
+        "premise": "Ne ile uğraşıyorsanız, kendinize hangi hedefleri seçmişseniz, o alanda odaklanmak ve gayret içinde olmak önem taşıyor.",
+        "hypothesis": "Belirli bir alanda odaklanmak önemlidir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 38,
+        "premise": "Shakespeare'in Lear'ında öfkesi, kibri ve tuhaf korkularıyla insan, kozmos içindeki küçüklüğünü sıklıkla unutma eğilimindedir.",
+        "hypothesis": "Lear'da öfkesi, kibri ve korkularıyla insanlar kozmos içindeki küçüklüğünü sık sık unutur.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 43,
+        "premise": "Döndürür döndürür izleriz şarkıları türküleriyle artık.",
+        "hypothesis": "Şarkılar ve türküler dinlenir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 44,
+        "premise": "Kendi çocuğu olduğundan mı yoksa Alman ırkından bir kayıp yaşandığından mı gözyaşı döker babası, merak ederim.",
+        "hypothesis": "Babanın neden ağladığı tam olarak anlaşılamıyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 46,
+        "premise": "Biliyorum, insanları eserleriyle yargılamak doğru değil.",
+        "hypothesis": "Sanatçıları yaptıkları işlerden bağımsız değerlendirmek gerekir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 47,
+        "premise": "Ancak o dönemde ailesinin işi nedeniyle küçük yaşta Amerika'ya yerleşmiş olmalarının avantajını kullanmış ve oyunculuk kariyerine, tek haneli yaşlarda, The Mickey Mouse Club isimli çocuk programında başlamış.",
+        "hypothesis": "Çocuk yaşta Amerika'ya yerleşmesi ona avantaj sağladı ve The Mickey Mouse Club'da kariyerine başladı.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 48,
+        "premise": "Eğer işinizde internet kullanmamanız imkansız ise 1 saatin 45 dakikasını internette, 15 dakikasını da gözlerini kapatarak ya da yürüyüşe çıkarak geçirin.",
+        "hypothesis": "Eğer işinizde internet kullanmamanız imkansız ise 1 saatin tamamını internette geçirin.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 49,
+        "premise": "Onun için genç yaşta mutlaka geleceğimize bir yatırım olarak düşünülerek egzersiz yapılmalıdır.",
+        "hypothesis": "Genç yaşta egzersiz yapmak faydalıdır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 50,
+        "premise": "Markamızın globaldeki bilinirliği onlara güç katıyor.",
+        "hypothesis": "Bugün hava yağmurlu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 52,
+        "premise": "İnşaat ya Sagra! Gaudi'nin notları ve tasarımları 1936-39 yılları arasındaki İspanya İç Savaşı'nda yanınca katedralin inşaatına ara verildi.",
+        "hypothesis": "Katedralin inşaatına hiçbir zaman ara verilmedi.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 55,
+        "premise": "Duyduğumuz en son şey, Tarantino'nun gediklileri Samuel L.",
+        "hypothesis": "Tarantino'nun gelecek projeleriyle ilgili spekülasyonlar sürüyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 58,
+        "premise": "Hayatlarında geçici mi yoksa kalıcı kişileri mi istediklerine karar vermeye çalışacaklar.",
+        "hypothesis": "İlişkilerinin geleceği hakkında düşünecekler.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 59,
+        "premise": "Gitme zamanı yarınlara olan umut boşluklarından.",
+        "hypothesis": "Kedisi pencereden dışarı bakıyor.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 60,
+        "premise": "Olayları yönlendirme yönünde başarılı olabilirsiniz.",
+        "hypothesis": "Bugün hava durumu güzel.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 62,
+        "premise": "Devam etmeye gücümüzün kalmadığını düşündüğümüzde, bizim yerimize, bize ve hikayemize inanacak bir dost..",
+        "hypothesis": "Zor zamanlarda, bize inanan bir arkadaşa ihtiyaç duyabiliriz.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 63,
+        "premise": "Bu konuda hiçbir sorun yok.",
+        "hypothesis": "Her şey yolunda.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 64,
+        "premise": "Yüzlerce sayfalık, devasa kitapları çevirmeye alışık olan Cihan Karamancı, 120 sayfalık bu kısa kitabın üstesinden de başarıyla gelmiş.",
+        "hypothesis": "Karamancı bu kısa kitabı da başarıyla çevirdi.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 65,
+        "premise": "Merkezi sinir sistemi kapalı bir kutunun, yani kafatasının içinde bulunur.",
+        "hypothesis": "Kalp vücudun motorudur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 66,
+        "premise": "Böylelikle de ellerindeki fotoğrafçı sayısı azalıyor ve eğer işin içerisinde Hollywood fotoğrafçıları da varsa, onların teknik bilgilerine kıyasla kendi karakterini ve duruşunu çok önemsiyorlar.",
+        "hypothesis": "Fotoğrafçılar teknik bilgiden ziyade özgünlüğü önemsiyorlar.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 69,
+        "premise": "Filmin en önemli rolünde ise Lock, Stock and Two Smoking Barrels ile gaddar adamlığını tescillettirmiş eski futbolcu Vinnie Jones var.",
+        "hypothesis": "Filmin en önemli rolünde Vinnie Jones yer almıyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 72,
+        "premise": "Adeta vaftiz eder gibi Denys, suları Karen'ın saçlarına dökmektedir.",
+        "hypothesis": "Karen'ın saçları ıslanmaktadır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 73,
+        "premise": "Birincisi, vücudu saran silueti ve tepeden tırnağa sicimli inci detaylarıyla Old Hollywood'u kanalize etti.",
+        "hypothesis": "Birincisi, vücudu saran silueti ve tepeden tırnağa sicimli inci detaylarıyla Old Hollywood'u kanalize etti",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 74,
+        "premise": "Türkiye'de ilk kez psikofelsefe atölyeleri başlatarak kaydadeğer bir kültür hareketine imza atan THINK House, felsefe, edebiyat ve psikoloji dünyasını sahiplenen programlarını, klasik atölye anlayışından çıkararak birer sosyo-gösteriye dönüştürüyor.",
+        "hypothesis": "THINK House Türkiye'de psikofelsefe atölyelerini başlatmamıştır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 77,
+        "premise": "Ama aldığımız cevaplar çoğunlukla 3-5 cümle uzunluğunda olur.",
+        "hypothesis": "Genellikle 3 ila 5 cümleden oluşan yanıtlar alıyoruz.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 79,
+        "premise": "Daha önce de belirttğim gibi ilk filmden nispeten daha iyi bir film olmuş ama hala çok fazla eksiği mevcut bu filmin.",
+        "hypothesis": "İlk filme göre daha iyi olmasına rağmen, bu filmde hala birçok eksik bulunmaktadır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 80,
+        "premise": "Boğa burcu erkeğinin özellikleri içinde istikrar sahibi olmak öne çıkar.",
+        "hypothesis": "Boğa burcu erkekleri genellikle kararlıdır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 81,
+        "premise": "Uzlaşmacı olanaksız farklılıklar konusunda yol kat edebilmenin ilk sırrı eşinizi değiştirmeye çalışmaktan vazgeçmektir.",
+        "hypothesis": "Eşinizi değiştirmeye çalışmamak, çözümsüz gibi görünen farklılıkların üstesinden gelmenin ilk adımıdır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 86,
+        "premise": "Bu ahmaklığın eseri olarak ya da şöyle diyelim bir yerlerde bütün dünya adına alınmış ahmakça karar yüzünden altın fiyatı her geçen gün ya da yıl yükseliyor.",
+        "hypothesis": "Altın fiyatları gün geçtikçe yükselmeye devam ediyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 87,
+        "premise": "5 kız kardeşten Patricia karakteri ile hikayenin en can alıcı rolünü üstlenen Katalan güzel, Astrid Berges-Frisbey ise oyunculuğu ile adeta göz kamaştırıyor.",
+        "hypothesis": "Astrid Berges-Frisbey, Patricia rolüyle hikayede önemli bir yere sahip.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 90,
+        "premise": "Dünyaya yaklaşan korkunç bir meteor gibi, antibiyotik direnci de insanlığı tehdit eden en korkunç tehlikelerden bir tanesidir ve insanoğlunu yok oluşa götürebilir, unutmamak gerekir.",
+        "hypothesis": "Antibiyotik direnci, dünyaya yaklaşan korkunç bir meteor gibi, insanlığı tehdit eden en tehlikeli tehlikelerden biridir ve yok oluşa yol açabilir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 91,
+        "premise": "This Much I Know to Be True yönetmeni, The Assassination of Jesse James by the Coward Robert Ford ile Killing Them Softly gibi filmlerinden de anımsanabilecek Andrew Dominik.",
+        "hypothesis": "This Much I Know to Be True'in yönetmeni Andrew Dominik değildir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 92,
+        "premise": "Sıkılaştırıcı formu ile gözenekleri küçülten Sinoz Arındırıcı Tonik, cildinizi tazeleyerek genç kalmasını ve yumuşak bir yapıya sahip olmasını sağlıyor. doğal akışını bozabilecek etkiye sahip.",
+        "hypothesis": "Sinoz Arındırıcı Tonik cildi gençleştirmez.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 94,
+        "premise": "Bu tarak yardımıyla kaşlarınızı taradıktan sonra dişlerin üzerinden belli olan tüyleri hassas uçlu makas kullanarak yavaşça kısaltın.",
+        "hypothesis": "Bu tarakla kaşlar tarandıktan sonra dişlerin üzerinden görünen tüyleri makasla kısaltmayın.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 97,
+        "premise": "Yani uzun lafın kısası, dört Amerikan dizisinin üçünde gördüğümüz aile bireyleri.",
+        "hypothesis": "Dört Amerikan dizisinin çoğunda aile bireyleri yer alıyor.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 98,
+        "premise": "Pandemi döneminde birlikte olmaya ve yakınlığa ne kadar ihtiyaç duyduklarını bir kez daha fark eden Calexico üyeleri, yeni albümlerinin aile, arkadaşlar ve topluluklara adanmış olduğunu söylüyor.",
+        "hypothesis": "Calexico bir müzik grubudur.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 99,
+        "premise": "Giriş yapmayı unutmayın! Reklamsız deneyim için, maddi desteğiniz ile ilişkilendirilmiş olan Evrim Ağacı hesabınıza üye girişi yapmanız gerekmektedir.",
+        "hypothesis": "Reklamsız deneyim için üye girişi yapmaya gerek yoktur.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 100,
+        "premise": "Senaryo ise Cüneyt İnay'a ait.",
+        "hypothesis": "Bu yapımın senaryosunu Cüneyt İnay yazmıştır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 102,
+        "premise": "0'den büyük 14 bin 178 depremin olduğunu ifade eden öğretim üyesi, bölgenin doğusunun daha yüksek risk taşıdığını açıkladı. 'Van Gölü'nün doğusu, batısına göre daha yüksek riskli.",
+        "hypothesis": "Van Gölü'nün doğusu, batısına göre daha yüksek riskli.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 103,
+        "premise": "Barselona kültürünü içeriden bir gözle yansıtan romancılardan Juan Marse, Carlos Ruiz Zafon da çantada yer almalı.",
+        "hypothesis": "Juan Marse ve Carlos Ruiz Zafon, Barselona'yı anlatan romancılardır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 104,
+        "premise": "Tiyatro balistik füzesi - 300 ila 3.",
+        "hypothesis": "Tiyatro çok kalabalıktı.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 105,
+        "premise": "Sevdiği müzik türüne göre giyinen, sevdiği sanatçının ya da sporcunun saç stilini kendi stiline katıp daha iyi hale getiren ve stilini keşfeden insanlar var.",
+        "hypothesis": "Bazı insanlar, beğendikleri sanatçıların stillerini benimserler.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 107,
+        "premise": "Bugünlerde kafanızı kurcalayan çift durumlar ve sizi uzaklarla ilgili meşgul edebilecek konular olabilir.",
+        "hypothesis": "Zihninizi meşgul eden birkaç konuyla uğraşıyorsunuz.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 109,
+        "premise": "Diğer Avrupa şehirlerinde karşılamaşamayıp burada karşılaşacabilceğiniz çinili yapılar, Porto'yu güzelleştiren farklı mimari yapılardan biri.",
+        "hypothesis": "Porto'yu güzelleştiren farklı mimari yapılardan biri olan çinili yapılar burada karşımıza çıkar.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 111,
+        "premise": "Birileri \"bunun bir önemi olacak artık\" diye inandı. \"İnsanlar görecek artık\" dedi.",
+        "hypothesis": "Bazıları \"Bunun artık bir anlamı olacak\", \"İnsanlar artık fark edecek\" diye düşündü.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 112,
+        "premise": "Kıskançlıktan çıldıran Divinia, fotoğrafları özgürlüğü karşılığında kendisini pazarlayan adama teklif eder.",
+        "hypothesis": "Japonya'nın başkenti Tokyo'dur.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 116,
+        "premise": "Evarts New York 2000 Hydroquinone ve sodyum sülfat kristali 120x yakınlaştırmayla.",
+        "hypothesis": "Bu kristalin büyütmesi 50x'tir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 117,
+        "premise": "Uluslararası Yarışma ana jüri üyeleri ise; Kurgucu Mary Stephen, Oyuncu Samar Qupty, Görüntü Yönetmeni Krum Rodriguez, Oyuncu İlker Kaleli ve Akbank Sanat Müdürü Derya Bigalı'dan oluşuyor.",
+        "hypothesis": "Uluslararası Yarışma ana jüri üyeleri belirtilen kişilerden oluşmuyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 119,
+        "premise": "Sarah Kane'in öznel bir bakış açısıyla yazdığı bu çok sert ve pesimist içerikli oyun, Tiyatro Pot'un tarzı ve sonraki projelerin içeriğiyle de ilgili ipuçları veriyor izleyenlerine.",
+        "hypothesis": "Sarah Kane'in bu oyunu, mutlu ve iyimser bir bakış açısını yansıtıyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 120,
+        "premise": "Iron Man yönetmeni, Jon Favreau ve yıldızı Robert Downey Jr., Elon Musk ile tanıştıklarında Demir Adam filmi için Tony Stark karakterini geliştirdiler.",
+        "hypothesis": "Iron Man'in yönetmeni Jon Favreau ve başrol oyuncusu Robert Downey Jr., Elon Musk ile tanıştıklarında Tony Stark karakterini geliştirmediler.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 121,
+        "premise": "Efendisi Kont Drakula'nın yemeğini bulmakla görevlendiren Renfield yüzyıllar süren tutsaklıktan sonra kendisini Drakula'nın olmadığı bir hayat kurma konusunda hazır hisseder.",
+        "hypothesis": "Renfield Drakula'ya hizmet etmeye devam etmek istiyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 122,
+        "premise": "En iyi oyun arkadaşlarıdır aynı zamanda 21.",
+        "hypothesis": "Bugün hava çok güzel.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 126,
+        "premise": "Bu buluşmanın gerçekleştiği kanıtlanamaz ama herkes buluşmanın gerçekleştiğine inanır.",
+        "hypothesis": "Mars'ta yaşam olduğu kanıtlandı.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 131,
+        "premise": "Dönem'de Türkiye-AB Karma Parlamento Komisyonu Üyesi ve Parlamentolararası Birlik Türk Grubu Başkanı oldu.",
+        "hypothesis": "İtalya'da pizza yemek çok yaygındır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 133,
+        "premise": "Araştırma hakkında değerlendirmelerini paylaşan Mercer Türkiye Genel Müdürü Dinçer Güleyin, 2019 Küresel Yetenek Trendleri çalışması gösteriyor ki şirketler, çalışanların bağlılığına daha fazla yatırım yapmak durumunda.",
+        "hypothesis": "Mercer Türkiye'ye göre şirketlerin çalışan bağlılığına yatırım yapmasına gerek yoktur.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 137,
+        "premise": "Yazar, kentin ışığında, ışığın zamanında yıkanan bin çeşit mekanı içine çekiyor, bu şehri eksiksiz bir hikaye anlatma sanatı ile soyut olmadan şiirsel bir şekilde anlatıyor.",
+        "hypothesis": "Yazar, kenti şiirsel ve somut biçimde anlatıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 138,
+        "premise": "Tehdit altındakiler kategorisine giren şirketlere, havayolu şirketleri, spor salonu işletmeciliği, ticari fuarcılık hizmetleri, toplu taşıma şirketleri örnek olarak verildi.",
+        "hypothesis": "Tehdit altındakiler kategorisine giren şirketlere örnek olarak havayolu şirketleri, spor salonu işletmeciliği ve toplu taşıma şirketleri verilmemiştir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 139,
+        "premise": "Ayrıca ciltte roza, egzama, seboreik dermatit varsa özellikle öneriliyor.",
+        "hypothesis": "Bu yaklaşım hakkında farklı uzman görüşleri bulunmaktadır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 140,
+        "premise": "Kılavuz Hatice, ufak bir ücret karşılığında onları gece vakti bölgeden çıkarabileceğini bildirdi.",
+        "hypothesis": "Kılavuz Hatice, onları gece vakti bölgeden çıkarabileceğini söyleyip ufak bir ücret talep etti.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 142,
+        "premise": "Onlara A-sınıf bir destek kadrosu kurulmuş.",
+        "hypothesis": "Onlara A-sınıf bir destek kadrosu kuruldu.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 146,
+        "premise": "Şahsen ben yazarların aksine destekliyorum Costantine'i beni her ne kadar da takmasalarda, zaten ben bunu düşündüklerinin tutmaması olarak görüyorum.",
+        "hypothesis": "Costantine'i destekliyorum.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 148,
+        "premise": "Sanatçıyı ehlileşmek üzerine bir yolculuğa çıkaran sergi, dioramaların incelikli detayları, eserlerin ihtiyacı olan zaman, sanatçının aceleci ve sabırsız kişiliğini dönüştürmek için hayatına giriyor.",
+        "hypothesis": "Sanatçının kişiliği hiç değişmiyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 150,
+        "premise": "Sonrasında ise sırasıyla Fransız, Mısır ve Hint sinemasından önemli bir ölçüde öykünme var.",
+        "hypothesis": "Fransız, Mısır ve Hint sinemalarından önemli ölçüde öykünme vardır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 151,
+        "premise": "IPhone gibi, belki en güzel örneği.",
+        "hypothesis": "Android telefonlar da iyi bir örnek olabilir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 152,
+        "premise": "Bir kısmı dışında çoğu sünnet hatası sonradan düzeltilebilse de hem yeniden bir operasyon stresine girilmesine hem de ciddi derecede kaygıya sebep olmaktadır.",
+        "hypothesis": "Sünnet hataları düzeltilebilir fakat stres yaratabilir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 153,
+        "premise": "Pek çok açıdan tehlikeli sayılabilecek öğelere sahip olan filmin göze batan, abartılı görünen ya da \"mesaj kaygılı\" denebilecek hiçbir yanı yok.",
+        "hypothesis": "Filmin herhangi bir abartısı bulunmuyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 155,
+        "premise": "Böylelikle ülkenin en önemli ve gerekli iki en büyük sanat kurumunun yıkım çalışmaları bitmiş, enkaz altında kalan değerleri de hızla yağmalanmaktadır.",
+        "hypothesis": "Ülkenin en önemli sanat kurumları restore edilerek yeniden açılmıştır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 157,
+        "premise": "Aslında geçen yıl Hindistan'da çekilmesi planlanan Monkey Man, pandemi dolayısıyla ertelenerek Endonezya'da çekildi.",
+        "hypothesis": "Geçen yıl Hindistan'da çekilmesi planlanan Monkey Man, pandemi nedeniyle ertelendi ve Endonezya'da çekildi.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 160,
+        "premise": "Bu yüzden çocuklar da bu hikayeyi severler çünkü kendilerini özdeşleştirmeleri kolaydır.",
+        "hypothesis": "Çocuklar, hikayenin kahramanlarıyla kolayca bağ kurarlar.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 161,
+        "premise": "Izgaralardan da '200gr Dana Antrikot' (33 TL), '180gr Kuzu Şaşlık Tikka Sos' (39,50 TL) ya da '150gr Tavuk Şiş ' (17 TL) tercih etmek mümkün.",
+        "hypothesis": "Menüde et seçeneği mevcut değil.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 162,
+        "premise": "Zaten büyük Şarköy depremi de 1912 yılında oldu.",
+        "hypothesis": "Şarköy depremi 1912'de gerçekleşti.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 163,
+        "premise": "Görüntü yönetmenliğini ise Doğan Sarıgüzel'in üstlendiği belgesele oyun programları, afişler, fotoğraflar, gazete kupürleri ve görüntüler eşlik edecek.",
+        "hypothesis": "Belgeselde oyun programları da kullanılacak.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 165,
+        "premise": "Fashion Week kapsamında Monique Lhuillier, Diane von Furstenberg ve Nicole Miller eyeliner ile oluşturulan dumanlı göz makyajının en göz alıcı halini podyumlarda sergileyen dünyaca ünlü markalardandı.",
+        "hypothesis": "Fashion Week'te sözü geçen markalar, dumanlı göz makyajı yerine rengarenk makyajları sergilediler.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 166,
+        "premise": "Loki ve Çocuklarının İskandinav Mitolojisindeki Yeri, dev yılan Jörmungandr, dev kurt Fenrir ve ölüm tanrıçası Hel'in Ragnarök'e giden yolda Thor, Odin ve Aesir'in kaderinde oynadıkları rol.",
+        "hypothesis": "Loki ve çocuklarının Ragnarök'te Thor, Odin ve Aesir'in kaderini etkileyen önemli roller oynadığı ifade edilmiştir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 167,
+        "premise": "Küçük kız kendisini buradaki hayattan soyutlanmış hissederken, ürkütücü bir malikanede yaşayan Marnie ile yakın arkadaşlık kuruyor.",
+        "hypothesis": "Küçük kız ile Marnie arasında yakın bir arkadaşlık gelişir",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 168,
+        "premise": "Donuk suratlı spiker haberleri veriyordu.",
+        "hypothesis": "Spiker, ifadesiz bir yüzle haberleri sunuyordu.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 169,
+        "premise": "Bu dönemde travmatize edilmeyen erkek çocuğun daha sonra giderek annesine bağımlılığı azalır ve babasıyla özdeşleşerek cinsel kimliği konusunda karara varır.",
+        "hypothesis": "Travma yaşamayan erkek çocukları büyüdükçe annelerine bağımlı hale gelir ve babalarıyla özdeşleşmekten kaçınarak cinsel kimliklerini belirleyemezler.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 171,
+        "premise": "İzlenebilecek ama izlemeyenin pek bir şey kaybetmeyeceği filmlerden...",
+        "hypothesis": "Bu film, izlemek için şart olmayan yapımlardan biridir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 172,
+        "premise": "Ancak aceleci olmamalı ve hemen sonuca da varmamalısınız.",
+        "hypothesis": "Japonya bir ada ülkesidir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 173,
+        "premise": "Kurgusu bazen yorucu olsa da çok başarılı.",
+        "hypothesis": "Filmin müzikleri de etkileyiciydi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 175,
+        "premise": "Eski oyunlara benzetmek de, Pillars'da gördük ki, oyun dünyasının artık aştığı pek çok soruna da dönmek anlamına geldiğinde anlamsız.",
+        "hypothesis": "Eski oyunlara atıfta bulunmak, Pillars'da gördüğümüz üzere, oyun dünyasının zaten aştığı sorunlara geri dönmek anlamına geldiğinde anlamsızdır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 176,
+        "premise": "Gözlerinde bulunan çapaklar, kaynatılmış su yardımı ile temizlenebilir.",
+        "hypothesis": "Gözdeki çapaklar kaynamış su ile giderilebilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 177,
+        "premise": "Zira bir anda kitabın içinde yaşananların gerçek olmasıyla ya da bilinçaltını açığa çıkarmasıyla gelişenler anlatılıyor esasen.",
+        "hypothesis": "Kitapta yaşananların tamamen hayal ürünü olduğu anlatılıyor.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 178,
+        "premise": "Yazıların dili Türkçe olmalıdır.",
+        "hypothesis": "Yazıların dili Türkçedir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 179,
+        "premise": "Bu yüzden sinyali doğal sebeplere bağlamak zorlaştı.",
+        "hypothesis": "Dolayısıyla sinyale doğal bir açıklama getirmek karmaşık hale geldi.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 181,
+        "premise": "Özellikle de Cathrine'nin Peter ile yüzleşmesi sahnesinden sonra \"seni dövmüyorum ama, iyi değil mi?\" demesi ve ardından Cathrine'nin yediği yumruğu hissettim resmen.",
+        "hypothesis": "Peter’la yüzleşme sahnesinin ardından Cathrine’nin \"seni dövmüyorum ama, iyi değil mi?\" demesiyle Cathrine’nin yediği yumruğu hissettiğimi",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 184,
+        "premise": "Hepsi beni tamamlayan tamamlayan kaynaklara dönüştü.",
+        "hypothesis": "Balıklar suda yaşar.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 185,
+        "premise": "Hal böyle olunca tiyatro adına her kafadan bir ses çıkıyor, insanlar neye inanacağını şaşırıyor.",
+        "hypothesis": "Tiyatro konusunda kafa karışıklığı yaşanıyor.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 187,
+        "premise": "Alan Clarke, 1982) Made in Britain (1982) listedeki Systemsprenger'a esin kaynağı olmuş bir TV filmi aslında.",
+        "hypothesis": "Made in Britain, Systemsprenger'a ilham veren bir TV filmidir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 188,
+        "premise": "Bu durumda sadece lif kaynağı yazanı değil, yüksek lif ibaresi yer alan ürünü aramalısınız.",
+        "hypothesis": "Akşam yemeğinde balık yemeyi planlıyorum.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 189,
+        "premise": "Bürünecekleri karakterlerin motivasyonları hakkında düşünürler ve repliklerini ezberlemek için çeşitli yollar seçerler.",
+        "hypothesis": "Oyuncular, canlandıracakları kişilerin neden o şekilde davrandığını anlamaya çalışırlar.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 190,
+        "premise": "Bunun en iyi şekilde ekip aileler haline gelerek sağlayabiliriz.",
+        "hypothesis": "Ekip olmanın önemi büyüktür.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 192,
+        "premise": "Ya rüyadadır anlatıcı ya da hayal dünyasında.",
+        "hypothesis": "Anlatıcı ya rüyadadır ya da hayal dünyasında bulunur.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 194,
+        "premise": "İçine bir çay kaşığı limon suyu veya elma sirkesi karıştırılan bir bardak ılık suyla gargara yapmak boğaz ağrısının geleneksel ilacıdır.",
+        "hypothesis": "Limon suyu veya elma sirkesi, boğaz ağrısı için kullanılan doğal bir çözümdür.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 195,
+        "premise": "Bir kere işin içinde Jenji Kohan'ın olması mükemmel bir haber.",
+        "hypothesis": "Jenji Kohan'ın projede yer alması harika bir durum.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 196,
+        "premise": "Düz fırçanızla en açık renkte olan fardan alın ve bunu gözlerin iç köşesine uygulayın Burası farın en yoğun olduğu bölgedir.",
+        "hypothesis": "Göz farını gözün iç köşelerine uygulamak, farın yoğunluğunu arttırır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 197,
+        "premise": "Topaz adındaki dev kuyumcuda mücevherler küçük bir ayrıntı.",
+        "hypothesis": "Topaz kuyumcusu hakkında başka ayrıntılar da bulunabilir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 198,
+        "premise": "Yatağının başına kimin bıraktığı belli olmayan -sevginin, huzurun ve aşkın sembolü- lalelerin bile Ayka için herhangi bir değeri yoktur.",
+        "hypothesis": "Ayka için laleler çok değerlidir ve anlamlıdır",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 199,
+        "premise": "Nobel Fizik Ödülü, 2020'de kara deliklerin keşfine katkı sağlayan çalışmalarından ötürü İngiliz matematiksel fizikçi Roger Penrose, Alman astrofizikçi Reinhard Genzel ve Amerikalı gök bilimci Andrea Ghez arasında paylaştırılmıştı.",
+        "hypothesis": "2020 Nobel Fizik Ödülü, kara deliklerle ilgili çalışmalara verilmedi.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 200,
+        "premise": "Bakkaloğlu, ünlülerin, siyasi isimlerin ve daha birçok videonun arka planına müzikler yaparak enfes videolar ortaya çıkarıyor.",
+        "hypothesis": "Bakkaloğlu, ünlülerin, siyasi isimlerin ve daha birçok videonun arka planına müzikler yaparak enfes videolar ortaya çıkarıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 202,
+        "premise": "Hemşire Esra'nın eşi ile Sait U.'nun arkadaşlıkları olması nedeniyle raporu kendisi düzenleyerek Sait U.'ya gönderdiğini bana söyledi dedi.",
+        "hypothesis": "Hemşire Esra, arkadaşı Sait U. için raporu kendisi hazırladığını belirtti.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 204,
+        "premise": "Seri olarak yayınlamaya devam edeceğimiz siyasetname türü eserlerin dördüncüsü olarak Şeyzeri'den Siyasetü'l-Müluk, beşincisi olarak da Şeyhoğlu Mustafa'nın Kenzü'l-Kübera'sı var.",
+        "hypothesis": "Siyasetü'l-Müluk, serinin ilk eseridir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 205,
+        "premise": "Her biri farklı bir etkide olan bitkilerden elde edilen uçucu yağlarla birlikte ruh, beden ve zihin dengenizi sağlayabilirsiniz.",
+        "hypothesis": "Uçucu yağlar ruh, beden ve zihin dengesini bozabilir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 207,
+        "premise": "Kartalkaya Kayak Merkezi Bolu'da Köroğlu Dağları üzerinde kurulan Kartalkaya kayak merkezi, konum itibarıyla İstanbul ile Ankara'nın tam ortasındadır.",
+        "hypothesis": "Kartalkaya Kayak Merkezi, İstanbul ve Ankara'ya uzak bir konumdadır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 209,
+        "premise": "Nefes alamıyorum dedi biri bu ay, öncesinde de demişlerdi binlercesi; bunu diyecek noktaya getirilme nedenleri farklıydı belki ama, sonuç değişmedi; sonrasında bir daha hiç nefes alamadılar.",
+        "hypothesis": "Birçok insan solunum yetmezliği yaşamıştır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 215,
+        "premise": "2004 yılında Bhutan Krallığı'nda kök salmaya başlayan ve ülkedeki ilk konaklama markası olan Amankora orman evleri; Paro, Thimpu, Punakha, Gangtey ve Bumthang'da konumlanıyor.",
+        "hypothesis": "Amankora orman evlerinin hiçbir şubesi Bhutan Krallığı'nda bulunmamaktadır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 216,
+        "premise": "Kanıtı mı? Amerika menşeili meşhur plak şirketi Matsuli Music tarafından 42 yıl sonra plak olarak yeniden yayımlanan Witchdoctor's Son albümü üç ay içerisinde tamamen tükendi.",
+        "hypothesis": "Witchdoctor's Son albümünün hiçbir kopyası satılmadı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 217,
+        "premise": "Rihanna kısa süre önce yıllık olarak yayınlanan Forbes'in, Amerika'nın kendi kendini yetiştiren en zengin kadınları listesinde üst üste üçüncü kez yer almayı başardı.",
+        "hypothesis": "Rihanna, Forbes'in Amerika'nın en zengin kendi kendini yetiştirmiş kadınları listesinde zirvede yer alıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 220,
+        "premise": "Julia Roberts ve Pamela Anderson 53 yaşında 16.",
+        "hypothesis": "Julia Roberts ve Pamela Anderson 53 yaşındadır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 221,
+        "premise": "Ali'nin kalbi Damla'yı hayata bağladı.",
+        "hypothesis": "Damla şu anda bir kitap okuyordu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 225,
+        "premise": "Bu da merak ettiğimiz konular arasında.",
+        "hypothesis": "Bu da en sevdiğim yemeklerden biridir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 226,
+        "premise": "Fakat karşımızda konvansiyonel sinema kodlarıyla oynamayı tercih eden bir yapım var.",
+        "hypothesis": "Yapım, geleneksel sinema kurallarını izliyor.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 227,
+        "premise": "Yoğurtta yüzde 80 oranında su bulunur.",
+        "hypothesis": "Yoğurdun büyük bir kısmı sudan oluşur.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 228,
+        "premise": "Bizim ona yeterince uzun bir süre baktıktan sonra gördüğümüzden ayrı bir deseni yok.",
+        "hypothesis": "Bazı desenler gizlidir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 229,
+        "premise": "Ne yazık ki yapım hala bağışlarla prodüksiyonu için gereken miktarı toparlamaya çalışıyor.",
+        "hypothesis": "Filmin yapım süreci tamamlanmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 232,
+        "premise": "O halde siz o özel insanlardan birisiniz.",
+        "hypothesis": "Siz de o özel insanlardan birisiniz.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 234,
+        "premise": "Eğer ilgili kriterler karşılanırsa, 6 ay dolmadan da iş yeri değişikliği yapılabiliyor.",
+        "hypothesis": "İş değiştirdikten sonra maaş artışı beklenebilir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 235,
+        "premise": "Baki'yi yazmadan önce dört sene kadar çalıştım da üzerinde..",
+        "hypothesis": "Baki'yi yazma süreci uzun bir hazırlık gerektirmiş.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 237,
+        "premise": "Ayrıca, bu karakter, paganizmde de belirtildiği üzere, yaşamdan yanalığı değerlendirmeye fırsat verdiğinden, mistik bir figür olarak süreğenliğe, evrime ve insan merkezli anlayışa daha yakındır.",
+        "hypothesis": "Bu karakter, insan merkezli anlayıştan uzaktır.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 238,
+        "premise": "Gökçek, 'Bu kitapları senin organize ettiğini biliyordum..",
+        "hypothesis": "Gökçek, birini kitapları organize etmekle suçladı.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 240,
+        "premise": "Hamdi Alkan'ın eşi Selen Görgüzel bu kez kadrosunda yer aldığı Seviyorsan Ayrıl Bence oyunundaki rolüyle gündeme geldi.",
+        "hypothesis": "Hamdi Alkan'ın eşi Selen Görgüzel, Seviyorsan Ayrıl Bence oyunundaki rolüyle yeniden gündeme geldi.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 241,
+        "premise": "2015'ten bu yana altınlarımız RJC sertifikalı tedarikçilerimiz tarafından temin ediliyor ve istikrarlı bağlılığımız bizi 2022'den itibaren sertifikalı altın üretimine yönlendiriyor.\" sözleriyle özetliyor.",
+        "hypothesis": "Altınlarımız 2015'ten beri RJC sertifikalı tedarikçilerden temin ediliyor ve 2022 itibarıyla sertifikalı altın üretimine yönlendirilmiş bulunuyoruz.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 242,
+        "premise": "Bugün yağdan da uzak durmalısınız.",
+        "hypothesis": "Bugün yağdan da kaçınmanız gerekir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 244,
+        "premise": "Fakat genç adam yolda kaybolur ve cadı Dellamorta'nın kötü ejderhası Burner'a yakalanır.",
+        "hypothesis": "Genç adam, Dellamorta'nın ejderhasının tutsağı olur.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 245,
+        "premise": "Olayların ardından okul geçici olarak kapatıldı.",
+        "hypothesis": "Okulun geçici kapatılması hakkında daha fazla bilgi verilmiyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 246,
+        "premise": "Halit Akçatepe Yeşilçam'ın haylaz çocuğu, efsanevi oyuncu Halit Akçatepe, 79 yaşında aramızdan ayrıldı.",
+        "hypothesis": "Halit Akçatepe 79 yaşında vefat etti.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 253,
+        "premise": "Sahneler kimselerin malı değildir, asla olmayacaktır.",
+        "hypothesis": "Sahneler kimsenin malı değildir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 254,
+        "premise": "Furuğ, İran toplum yaşamı ve edebiyatındaki ötekilerin de sesiydi.",
+        "hypothesis": "Furuğ, İran edebiyatında ve toplumsal hayatta dışlanmışların da sesiydi.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 255,
+        "premise": "Allah razı olsun, Türkiye'nin buralara çok katkısı oldu. diyor.",
+        "hypothesis": "Bu tür ifadeler güncel politikada sıkça kullanılır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 256,
+        "premise": "Bu burcun insanları her şeye kolay inanmaz ve ikna olmaz ancak inandıkları bir şeyi de sonuna kadar savunma özelliğine sahiptir.",
+        "hypothesis": "Bu burcun insanları kolay kolay ikna edilemezler.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 262,
+        "premise": "İnsan genetik olarak tek başına yaşamaya kodlanmamış, sosyal bir dokunun parçası olmaya göre için kodlanmış dedi.",
+        "hypothesis": "Kediler yalnız yaşamaya daha uygundur.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 263,
+        "premise": "Kültür ve Turizm Bakanlığı'nın ve BluTV'nin yanı sıra Almanya, Polonya ve Danimarka'da da çeşitli kurumlardan destek gören film ayrıca yapım aşamasında Jerusalem International Film Lab'de ana ödüle layık görülmüştü.",
+        "hypothesis": "Film hiçbir kurumdan destek almadı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 265,
+        "premise": "Burada Orklar arasındaki isimleri \"The Horde Leader\" ve \"The War Maker \" olan Ilneval`den bahsediyoruz.",
+        "hypothesis": "Ilneval, \"The Horde Leader\" ve \"The War Maker\" isimleriyle bilinir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 267,
+        "premise": "Giriş yapmadığınız takdirde reklamları görmeye devam edeceksinizdir.",
+        "hypothesis": "Giriş yapmazsanız reklamları görmeye devam edeceksiniz.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 268,
+        "premise": "İkiz erkek bebeklerimizden Tommy ve Billy, biri Wanda'nın diğeri ise bu bölümde isminin geçmesiyle birden her şeyi karanlıklaştıran Pietro'nun güçlerine sahip olacaklar.",
+        "hypothesis": "Tommy ve Billy adlı ikiz erkek bebekler, Wanda ile Pietro'nun güçlerine sahip olacaklar.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 271,
+        "premise": "Bir diğeri de performansının yeterli olmaması ve pek çok sahnesinin defalarca çekilmek zorunda kalınması.",
+        "hypothesis": "Yönetmen, oyuncunun performansından memnundu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 274,
+        "premise": "Alternatif bir elbise önerisi için buraya, seveceğinizi düşündüğümüz bir vintage dükkanı için buraya tıklayabilirsiniz.",
+        "hypothesis": "Alternatif bir elbise önerisi için buraya tıklayabilirsiniz; bu, beğeneceğinizi düşündüğümüz vintage dükkânına yönlendirme içerir",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 275,
+        "premise": "YouTube destekçilerimizin hepsi otomatik olarak reklamsız deneyime şimdilik erişemiyorlar ve şu anda, YouTube üzerinden her destek seviyesine reklamsız deneyim ayrıcalığını sunamamaktayız.",
+        "hypothesis": "Tüm destekçiler reklamsız deneyime otomatik olarak erişebilecek.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 276,
+        "premise": "Özellikle iş ya da okul hayatında yoğun stres yaşayan insanlar bu rüyayı görüyor.",
+        "hypothesis": "Yoğun iş veya okul stresi yaşayanlar bu tür rüyaları daha sık görürler.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 277,
+        "premise": "Başbakan Yardımcısı Mehmet Şimşek, Bireysel Emeklilik Sistemi'nde otomatik katılım sürecinin daha sağlıklı, verimli ve etkin işlemesi için sisteme kademeli geçiş kararı aldıklarını açıkladı.",
+        "hypothesis": "Mehmet Şimşek, BES'te otomatik katılımın daha sağlıklı, verimli ve etkili işlemesi için geçişin kademeli yapılacağını açıkladı",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 280,
+        "premise": "Caz müzikle harmanlanan ve kültürü yansıtan Soul, kaçırılmaması gereken filmlerin başında geliyor.",
+        "hypothesis": "Soul filmiyle ilgili eleştirmen yorumları çeşitlilik gösterir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 281,
+        "premise": "Georganics'in doğal diş macunu, aktif kömürle harmanlanmış ve organik nane esanslarıyla üretilmiştir.",
+        "hypothesis": "Georganics'in doğal diş macunu aktif kömür içermez.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 284,
+        "premise": "Özellikle portakal, mandalina gibi narenciyelerin suyunun sıkıldıktan sonra kısa sürede tüketilmesi gerekmektedir, aksi takdirde içeriğindeki C vitamini, belirgin düzeyde azalmaktadır.",
+        "hypothesis": "Narenciye suları bekletilirse C vitamini seviyesi düşer, bu yüzden taze sıkılmış olarak tüketilmelidir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 285,
+        "premise": "Sana söylenecek şeyleri tekrar tekrar düşünmeliler.",
+        "hypothesis": "Bu konu hakkında oldukça dikkatli olmalılar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 286,
+        "premise": "Bir sanatçıyı inzivaya zorlayan, devamlı bir kaçma hissiyatıyla yaşamasına sebep olan şeyde bu uçurumun derinliğidir.",
+        "hypothesis": "İnzivaya zorlama, bu uçurumun derinliğinden kaynaklanmaz.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 287,
+        "premise": "Dizde en sık görülen sorunların başında menisküs aşınması ya da yırtılması geliyor.",
+        "hypothesis": "Bugün kahve içmeyi tercih edeceğim.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 288,
+        "premise": "İlk olarak şirketin stajyer ekibi SMROOKIES üyelerinden biri olarak açıklanmıştı.",
+        "hypothesis": "Bu kişi SMROOKIES üyesiydi.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 289,
+        "premise": "Dünyanın ortak bilincini yükseltmeye katkıda bulunmanın tek yolu budur.",
+        "hypothesis": "Bu, dünyanın ortak bilincini yükseltmenin tek yoludur.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 291,
+        "premise": "Rakipleri İspanyol Sara Sorribes Tormo ile Çek Marie Bouzkova'yı 2-6, 6-3 ve 13-11'lik setlerle 2-1 mağlup eden Williams-Jabeur çifti, adlarını üst tura yazdırdı.",
+        "hypothesis": "Williams-Jabeur çifti, İspanyol Sara Sorribes Tormo ve Çek Marie Bouzkova'yı 2-1 yenerek bir üst tura yükseldi.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 292,
+        "premise": "Aynı zamanda yolculuklar da gündeme gelebilir.",
+        "hypothesis": "Bu tartışmanın bir parçası olarak yolculuklar da ele alınabilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 294,
+        "premise": "Halkı ikiye bölen aşık düşmanların savaşı, bambaşka bir adalet arayışı sunuyor.",
+        "hypothesis": "Savaş sahneleri, kahramanlık temasına odaklanarak ilerliyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 296,
+        "premise": "En son çözüm saç ekimine kadar gitse de kelliğin ilerlemesini yavaşlatmak için her yaşta saçlarınıza gereken önemi vermelisiniz.",
+        "hypothesis": "Saç kaybını yavaşlatmak için, saç ekimi son çare olsa bile, her yaşta saçlarınıza özen göstermelisiniz.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 297,
+        "premise": "2. grup yüksek risk taşıyan grup, henüz bir kkh ortaya çıkmamış ama iki veya daha fazla risk faktörünün bulunduğu gruptur. yine bu grupta ikincil koruma uygulamalıdır.",
+        "hypothesis": "Bu grup yüksek risk taşıdığından, henüz bir kkh ortaya çıkmamış olsa bile ikincil koruma uygulanmalıdır",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 299,
+        "premise": "Günlüğümü de kendi tasarladığım simgelerle oluşturdum. diye konuştu.",
+        "hypothesis": "Günlüğünde kendine özgü semboller kullandığını belirtti.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 300,
+        "premise": "Bu yoğun bakım tedavilerinden sonra çok erken doğan bebeklerde birtakım sakatlıklar oluşabilir.",
+        "hypothesis": "Yoğun bakım tedavileri sonrasında çok erken doğan bebeklerde sakatlıklar meydan gelebilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 301,
+        "premise": "Gaston Leroux'un romanından Andrew Lloyd Webber tarafından müzikale uyarlanan ölümsüz eser Operadaki Hayalet nihayet beyazperdedeki yerini, üstelik üç Oscar adaylığıyla, aldı.",
+        "hypothesis": "Operadaki Hayalet filmi hiçbir Oscar'a aday gösterilmedi.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 303,
+        "premise": "3 aydan büyük bebekler; yüksek ateş, halsizlik, yeterince beslenememe ve ağızdan sıvı alamama gibi durumlar varsa mutlaka doktora götürülmelidir.",
+        "hypothesis": "Üç aydan büyük bebeklerde yüksek ateş, halsizlik, beslenememe ve ağızdan sıvı alamama gibi durumlarda mutlaka doktora başvurulmalıdır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 304,
+        "premise": "Her şeyi ona sormaya alışmıştım.",
+        "hypothesis": "Ona her şeyi sormaya alışkındım",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 305,
+        "premise": "Hatta 1979 yapımı klasik Kramer vs.",
+        "hypothesis": "Hatta 1979 yapımı klasik Kramer vs. Kramer da vardır.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 307,
+        "premise": "Kısılıp kalmanın, uzaklaşmanın mümkün olmadığı; bir yandan gelenekler bir yandan iktidarlar, devletler tarafından engellendiğinin çok sarsıcı bir örneği olan Ayı Yok, ustalıklı kurgusuyla da göz dolduruyor.",
+        "hypothesis": "Ayı Yok, engellerin olmadığını gösterir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 308,
+        "premise": "Stark ısıtıcılarla soğuk geçecek kışa mı hazırlanırsınız..",
+        "hypothesis": "Stark ısıtıcılar kışın ısınmak için kullanılabilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 309,
+        "premise": "Aynı Civil War'da olduğu gibi, ana serisi ertelendi Secret Wars'ın.",
+        "hypothesis": "Secret Wars'ın ana serisi, Civil War gibi ertelenmiştir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 311,
+        "premise": "Hani vardı ya Anakonda'lar, Pirana'lar, Timsah'lar, Yılan'lar falan? Hah işte Heatstroke da bize o izlenimi verdi.",
+        "hypothesis": "Heatstroke, tehlikeli hayvanların bulunduğu bir ortam gibiydi.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 312,
+        "premise": "Don Jose ise kral adına çalışan ve kaçakçılığı engellemek üzere görevlendirilmiş bir askerdir.",
+        "hypothesis": "Mars, Güneş Sistemi'ndeki dördüncü gezegendir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 313,
+        "premise": "Rattle That Lock isimli albüm, farklı versiyonlarıyla müzik marketlerde yerini aldı! İngiliz müzisyenin 10 şarkıdan oluşan albümü, CD, CD+DVD, CD+Blu-Ray ve plak gibi farklı formatlarda yayınlandı.",
+        "hypothesis": "Albüm sadece dijital olarak sunuldu.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 314,
+        "premise": "Eğer neden sekonder ise, kişinin bir süre için sahur da, düzenli ağrı kesici alması yararlı olabilir.",
+        "hypothesis": "Sahur saatlerinde düzenli ağrı kesici kullanımı faydalı olabilir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 315,
+        "premise": "Söz konusu görev, önemli bir politikacıya düzenlenecek olan bir suikasttir.",
+        "hypothesis": "Görev, bir banka soygunudur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 316,
+        "premise": "Töre ve namus cinayeti işleyenler hem cezaevinde hem de dışarıda büyük takdir görüyorlar, cezaevlerinde ağalar gibi karşılanıyorlar, toplumda da kahraman ilan ediliyorlar.",
+        "hypothesis": "Töre cinayetleri işleyenler toplum tarafından övülüyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 318,
+        "premise": "Portföyünde kolonyalar, bitkisel bazlı mumlar, çubuklu oda kokuları ve oda spreyleri barındıran Ceremony In Bloom'un son yeniliği el ve vücut ürünleri.",
+        "hypothesis": "Ceremony In Bloom'un son yeniliği el ve vücut ürünleri değildir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 319,
+        "premise": "Festivalin erteleneceğine dair dedikodular baş gösterince, organizatörler 12-23 Mayıs tarihleri arasında yapılması gereken festivali, net bir tarih vermeden haziran sonu temmuz başına erteledi.",
+        "hypothesis": "Festival, belirtilen tarihlerde yapılmayacak.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 320,
+        "premise": "İspanya'nın demokrasiye geçiş döneminde, Manuel İspanya'daki tüm hapishanelerin mahkumlarını sisteme karşı mücadelede birleştirip, hapishane yasalarını sonsuza dek değiştirecek mücadelesine başlamıştır.",
+        "hypothesis": "İspanya'nın demokrasiye geçiş döneminde böyle bir mücadele başlatıldığı iddia edilmemiştir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 323,
+        "premise": "Tony, tek atımlık bir travmadan sonra kahraman olmamış, hayatı boyunca yaptığı hataları zaman içinde fark ederek birer birer bu hatalardan ders almıştır.",
+        "hypothesis": "Tony, yaşamı boyunca hatalarından ders çıkararak bir kahraman figürüne dönüşmüştür.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 324,
+        "premise": "Tartışmayı hiç beklenmedik bir yere çeken kişiyse bir fahişe gibi görünmeyen çilli fahişe Merle olmuştu.",
+        "hypothesis": "Merle, saygıdeğer bir kadındı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 325,
+        "premise": "Paul ve teyzelerinin Paris'in sanat çevrelerine yakın oluşu Paul için sosyal bir ortamda mutlulukla müziğini icra ettiği izlenimini yaratsa da aslında durum öyle değildir.",
+        "hypothesis": "Paris'in sanat çevrelerine yakın olması Paul için sosyal bir ortamda mutlu bir şekilde müziğini icra ettiği izlenimini yaratır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 326,
+        "premise": "Tabiri caizse elimize doğdular, büyüyüp serpilip sancak beyi oldular, kimileri haksız yere isyankar ilan edilip babası tarafından boğdurulmak suretiyle Hakk'ın rahmetine bile kavuştu.",
+        "hypothesis": "Hiçbiri sancak beyi olmadı ve kimse boğdurulmadı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    }
+]
