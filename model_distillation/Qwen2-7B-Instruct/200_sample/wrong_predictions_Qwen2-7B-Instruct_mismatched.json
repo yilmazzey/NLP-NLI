@@ -1,0 +1,1406 @@
+{
+  "accuracy": 0.57,
+  "n": 200,
+  "predictions": [
+    {
+      "premise": "Bu ziyarette Hemingway'den değerli bazı tavsiyelerin yanı sıra bir de kitap listesi alır.",
+      "hypothesis": "Hemingway, bu ziyarette yemek yemiştir.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "47.sayfadaki 4.ünitede '15 Temmuz Demokrasi Zaferi ve Şehitleri' başlıklı bir yazı yazılması istenmektedir.",
+      "hypothesis": "Everest Dağı Asya kıtasındadır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "İstanbul Büyükşehir Tiyatro Grubu oyuncuları ve Kayseri'den gelen Hacivat ile Karagöz tiyatro oyuncuları da, Mardin'e büyük hayranlık duyduklarını belirterek, Daha önce Mardin'i faklı tanıdık.",
+      "hypothesis": "Bu görüş, Mardin hakkında başka bilgiler paylaşılmamıştır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Netflix de bu beğeniyi göz ardı etmedi ve dizinin önce dördüncü sezonunun şimdi de beşinci sezonunun geleceğini onayladı.",
+      "hypothesis": "Amazon Prime, yeni bir belgesel yayınladı.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Gösterinin üçüncü sezonu Hulu tarafından resmi olarak onaylandığına göre, sezonlar arasındaki zamanlama bir yıl arayla kalırsa gelecek yaz yayınlanmasını bekleyebiliriz.",
+      "hypothesis": "Dizinin yeni sezonu bu yaz yayınlanmayacak.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Biliyorum, insanları eserleriyle yargılamak doğru değil.",
+      "hypothesis": "Sanatçıları yaptıkları işlerden bağımsız değerlendirmek gerekir.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Markamızın globaldeki bilinirliği onlara güç katıyor.",
+      "hypothesis": "Bugün hava yağmurlu.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Şeffaf bir dudak parlatıcısını dudaklarınıza tek bir kat uygulayın.",
+      "hypothesis": "Dudaklarınıza renkli bir dudak parlatıcısı uygulayın.",
+      "true_label": "contradiction",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Hayatlarında geçici mi yoksa kalıcı kişileri mi istediklerine karar vermeye çalışacaklar.",
+      "hypothesis": "İlişkilerinin geleceği hakkında düşünecekler.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Gitme zamanı yarınlara olan umut boşluklarından.",
+      "hypothesis": "Kedisi pencereden dışarı bakıyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Halloween Serisi'nin devamı olan ve yönetmenliğini David Gordon Green'in üstlendiği Halloween Kills 2020 ekimde vizyona girecek.",
+      "hypothesis": "2023'te yeni bir Transformers filmi çıkacak.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Merkezi sinir sistemi kapalı bir kutunun, yani kafatasının içinde bulunur.",
+      "hypothesis": "Kalp vücudun motorudur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "O dönemler Amerika'da ırkçılığın en yaygın olduğu eyaletlerden olan Georgia eyaletinde Afrikan-Amerikan bir kadın olarak hayata tutunması, kişiliğini derinden etkilemiş; bu durum aktivist ve feminist kişiliğiyle kendisini göstermiştir.",
+      "hypothesis": "Bu kadının çocukluğu Fransa'da geçmiştir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Kızına karşı umarsızca talepkar olabilen çocuksu yönü, dışarıya karşı yetişkinlik taslayan güçlü bir kişiliğe dönüşür.",
+      "hypothesis": "İnsanlar farklı ortamlarda farklı davranışlar sergileyebilir.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Gül yaprakları, rezene ve limon kabuğu ile hem sağlıklı hem de lezzetli bir çay hazırlamanız mümkün.",
+      "hypothesis": "Bu çay tarifinde kahve çekirdekleri de kullanılır.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Kim bilir Robert De Niro, Ben Stiller ve Oven Wilson gibi sağlam oyuncuları birlikte ne zaman görme şansı bulabiliriz.",
+      "hypothesis": "Mars'a ne zaman gideceğimiz çok merak ediyorum.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Eğer sen bu çabayı görmüyor ve düşüncesizce davranışlara şahit oluyorsan, o kişinin senin hayatında olmasına da gerek yoktur.",
+      "hypothesis": "Balıklar suda yaşar.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Daha önce de belirttğim gibi ilk filmden nispeten daha iyi bir film olmuş ama hala çok fazla eksiği mevcut bu filmin.",
+      "hypothesis": "İlk filme göre daha iyi olmasına rağmen, bu filmde hala birçok eksik bulunmaktadır.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Çeled Uşaglar hakkında bilgi veren Ayıntap Kültür ve Sanat Derneği Başkanı Orhan Uslu, İstanbul Gaziantepliler Derneği Başkanı Tahir Tekin Öztan'ın ev sahipliğinde sahnelediğimiz oyun büyük ilgi gördü.",
+      "hypothesis": "Oyunu birçok kişi izledi.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Tek olanın şimdiki zaman olduğunu, anın bir önceki andan bağımsız olamayacağını; geleceğin, şu anın ve geçmişin bir bütün olduğunu anlarız.",
+      "hypothesis": "Güneş, Dünya'nın etrafında dönmez.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Pandemi döneminde birlikte olmaya ve yakınlığa ne kadar ihtiyaç duyduklarını bir kez daha fark eden Calexico üyeleri, yeni albümlerinin aile, arkadaşlar ve topluluklara adanmış olduğunu söylüyor.",
+      "hypothesis": "Calexico bir müzik grubudur.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Senaryo ise Cüneyt İnay'a ait.",
+      "hypothesis": "Bu yapımın senaryosunu Cüneyt İnay yazmıştır.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kıskançlıktan çıldıran Divinia, fotoğrafları özgürlüğü karşılığında kendisini pazarlayan adama teklif eder.",
+      "hypothesis": "Japonya'nın başkenti Tokyo'dur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Resimde güçlü hizmetkarları Holofernes'i tutarken, diğer kadın da boğazını kesiyordu.",
+      "hypothesis": "Resimde bir grup insan sohbet etmektedir.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "The Good Wife ile Emmy ödülü sahibi olan Archie Panjabi'yi de ilk kez burada önemli bir rolde izledim ve o da gayet iyiydi..",
+      "hypothesis": "Archie Panjabi, The Good Wife'tan sonra burada da başarılı bir performans sergiledi.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu buluşmanın gerçekleştiği kanıtlanamaz ama herkes buluşmanın gerçekleştiğine inanır.",
+      "hypothesis": "Mars'ta yaşam olduğu kanıtlandı.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "David Tennant'ın yakında sesini duyacağımız tek animasyon yapımı da Chew olmayacak.",
+      "hypothesis": "David Tennant'ın yakında sesini duyacağımız başka animasyon yapımları da olacak.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Bademciklerin olmaması boğazlarında iltihaplanma olmayacağı anlamına gelmez.",
+      "hypothesis": "Bademcikleri olmayanlar, boğaz enfeksiyonlarına yakalanabilirler.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kullanıcılar cüzdanlarında kaldıkları sürece diğer pazarlarda da listelenmiş olsalar bile ürünlerini OpenSea'da listeleyebilirler.",
+      "hypothesis": "Bir basketbol maçında faul yapıldığında serbest atış kullanılır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Zaten büyük Şarköy depremi de 1912 yılında oldu.",
+      "hypothesis": "Şarköy depremi 1912'de gerçekleşti.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "19 kişiyi takip ettikleri ortaya çıktı Polis aramasında anahtar şeklinde dinleme cihazı, GPS cihazı, drone, fotoğraf makinası, ortam dinleme cihazları, telefonlar ve takip için gerekli materyaller ele geçirdi.",
+      "hypothesis": "Operasyon sonucunda çeşitli takip ekipmanları bulundu.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kadının sınırlarının evle çizilmesiyle Esty'nin doğru düzgün bir eğitim almamış olması birçok dini hareketin içinde kısılı kalmış kadının evrensel yansıması.",
+      "hypothesis": "Esty'nin eğitim durumu, dini hareketler içindeki kadınların durumunu gösteriyor.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "O kadar sene gidiliyorsa da, daha fütüristik tasarımlar görmememiz için neden yoktu.",
+      "hypothesis": "Bunca yıldır gidilmesine rağmen, daha yenilikçi tasarımların sergilenmemesi kabul edilebilirdi.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Şimdilerde Downton Abbey hayranlarını epey sevindirecek bir haber gündemde.",
+      "hypothesis": "Yeni Star Wars filmi yakında vizyona girecek.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Seni bir sürü işlem yapmaktan kurtarabilir.",
+      "hypothesis": "Bu ifade, birçok alanda hayatı kolaylaştırabilir.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kanıtı mı? Amerika menşeili meşhur plak şirketi Matsuli Music tarafından 42 yıl sonra plak olarak yeniden yayımlanan Witchdoctor's Son albümü üç ay içerisinde tamamen tükendi.",
+      "hypothesis": "Witchdoctor's Son albümünün hiçbir kopyası satılmadı.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Bu sizce kara delik değil de nedir? Bununla ilgili bir tedbir alıyor musunuz?' ifadelerini kullanan İYİP milletvekili, 'Kurumu çökerttiniz, elini kolunu bağladınız.",
+      "hypothesis": "Türkiye Büyük Millet Meclisi Ankara'dadır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu da merak ettiğimiz konular arasında.",
+      "hypothesis": "Bu da en sevdiğim yemeklerden biridir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Fakat karşımızda konvansiyonel sinema kodlarıyla oynamayı tercih eden bir yapım var.",
+      "hypothesis": "Yapım, geleneksel sinema kurallarını izliyor.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ne yazık ki yapım hala bağışlarla prodüksiyonu için gereken miktarı toparlamaya çalışıyor.",
+      "hypothesis": "Filmin yapım süreci tamamlanmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Fakat genç adam yolda kaybolur ve cadı Dellamorta'nın kötü ejderhası Burner'a yakalanır.",
+      "hypothesis": "Genç adam, Dellamorta'nın ejderhasının tutsağı olur.",
+      "true_label": "entailment",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Olayların ardından okul geçici olarak kapatıldı.",
+      "hypothesis": "Okulun geçici kapatılması hakkında daha fazla bilgi verilmiyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Sonuç olarak Albert Einstein ve Hz.",
+      "hypothesis": "Albert Einstein ve Hazreti Muhammed aynı dönemde yaşamışlardır.",
+      "true_label": "contradiction",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Başka Sinema Ayvalık Film Festivali afişi bu yıl Cansu Uzun Gün'ün illüstrasyonu ve Emel Işıtan'ın görsel tasarımıyla hazırlandı.",
+      "hypothesis": "Japonya'nın başkenti Tokyo'dur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "İnsan genetik olarak tek başına yaşamaya kodlanmamış, sosyal bir dokunun parçası olmaya göre için kodlanmış dedi.",
+      "hypothesis": "Kediler yalnız yaşamaya daha uygundur.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Cornell onu etrafına dikkatlice ördüğü savunma mekanizmalarından kurtarmaya başlayacak, ve gerçekten kim olduğunu düşünmeye zorlayacaktır.",
+      "hypothesis": "Cornell onu etrafına dikkatlice ördüğü savunma mekanizmalarına hapsedecek, ve gerçekten kim olduğunu unutmasını sağlayacaktır.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "000 kişi Göktürkçeyi anlayabiliyor Göktürkçe anlayan kişilerin sayısındaki artışta yapılan çalışmaların ve sosyal medyanın önemli bir payı var.",
+      "hypothesis": "Japonya, bir ada ülkesidir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bir diğeri de performansının yeterli olmaması ve pek çok sahnesinin defalarca çekilmek zorunda kalınması.",
+      "hypothesis": "Yönetmen, oyuncunun performansından memnundu.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Ya acaba bu kimsenin aklına gelmiş miydi daha önce? Şöyle Sonic'in oyunlarında falan? Bu yukarıdaki video, Sonic the Hedgehog isimli, 2006 tarihli oyundan.",
+      "hypothesis": "Bu video, Sonic the Hedgehog oyunundan bir kesit içermektedir.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Alternatif bir elbise önerisi için buraya, seveceğinizi düşündüğümüz bir vintage dükkanı için buraya tıklayabilirsiniz.",
+      "hypothesis": "Alternatif bir elbise önerisi için buraya tıklayabilirsiniz; bu, beğeneceğinizi düşündüğümüz vintage dükkânına yönlendirme içerir",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ferit Edgü, karagöz metinlerini okumak için Ritter okumak gerektiğini ya da ondan yardım almak gerektiğini vurguluyor.",
+      "hypothesis": "Elmalar ağaçlarda yetişir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Sana söylenecek şeyleri tekrar tekrar düşünmeliler.",
+      "hypothesis": "Bu konu hakkında oldukça dikkatli olmalılar.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Dizde en sık görülen sorunların başında menisküs aşınması ya da yırtılması geliyor.",
+      "hypothesis": "Bugün kahve içmeyi tercih edeceğim.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Halkı ikiye bölen aşık düşmanların savaşı, bambaşka bir adalet arayışı sunuyor.",
+      "hypothesis": "Savaş sahneleri, kahramanlık temasına odaklanarak ilerliyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Aşağı yukarı ben katılıyorum denilen şeylere.",
+      "hypothesis": "Tartışılan noktalarda ben de aynı fikirdeyim.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Hani vardı ya Anakonda'lar, Pirana'lar, Timsah'lar, Yılan'lar falan? Hah işte Heatstroke da bize o izlenimi verdi.",
+      "hypothesis": "Heatstroke, tehlikeli hayvanların bulunduğu bir ortam gibiydi.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Don Jose ise kral adına çalışan ve kaçakçılığı engellemek üzere görevlendirilmiş bir askerdir.",
+      "hypothesis": "Mars, Güneş Sistemi'ndeki dördüncü gezegendir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Söz konusu görev, önemli bir politikacıya düzenlenecek olan bir suikasttir.",
+      "hypothesis": "Görev, bir banka soygunudur.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Tony, tek atımlık bir travmadan sonra kahraman olmamış, hayatı boyunca yaptığı hataları zaman içinde fark ederek birer birer bu hatalardan ders almıştır.",
+      "hypothesis": "Tony, yaşamı boyunca hatalarından ders çıkararak bir kahraman figürüne dönüşmüştür.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Tartışmayı hiç beklenmedik bir yere çeken kişiyse bir fahişe gibi görünmeyen çilli fahişe Merle olmuştu.",
+      "hypothesis": "Merle, saygıdeğer bir kadındı.",
+      "true_label": "contradiction",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Neticede çok büyük bir servete hükmetmekle beraber yoksul bir hayat yaşayan çiftin başına akılalmaz olaylar gelir.",
+      "hypothesis": "İtalya Başbakanı, Avrupa Birliği zirvesine katıldı.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "YÜZYILA TARİHLENEN BİR FİLDİŞİ AYNA MAHFAZASININ BEZEME ÜSLUBUNA...",
+      "hypothesis": "Bu ifade hakkında net bir bilgi verilmiyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Disney baya \"Arkadaşlar size ihtiyacımız var\" diyerek Zootopia'nın başına çağırdı Johnston ve Moore'u.",
+      "hypothesis": "Pixar, Finding Nemo'nun devam filmini çekiyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Ama onun da ötesinde Cranston pek çok kişi için içinde olduğu yapımları otomatikman bir seviye yukarı çeken, varlığı bir şans verme sebebi olan bir aktör.",
+      "hypothesis": "ABD'nin başkanı Joe Biden'dır.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Necla- Metin Büyükşen Olayının Geçmişi İddiaya göre, 3 Eylül 2018 tarihinde başına kar maskesi geçiren kişi Metin Büyükşen'e ait eve, kapısı açık olduğu sırada girdi.",
+      "hypothesis": "3 Eylül 2018 tarihinde kar maskeli kişinin Metin Büyükşen'in evine girdiğine dair iddia doğru değildir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Çok tatlı bir karakter olmuş hakikaten, bayıldım kendisine.",
+      "hypothesis": "Bu karakteri canlandıran oyuncu hakkında kötü eleştiriler var.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "2018 yılı dördüncü çeyreğinde bu endeks yüzde 3,2 artış gösterdi.",
+      "hypothesis": "Takvim etkisinden arındırılmış GSYH zincirlenmiş hacmi endeksi, 2018 yılı dördüncü çeyreğinde yüzde 3,2 artış gösterdi.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Çok daha kalabalık da olabilirsiniz.",
+      "hypothesis": "Arılar koloni halinde yaşarlar.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Zoolijiden, genetiğe, biyolojiden arkeolojiye, davranış psikolojisinden jeolojiye birçok bilimsel disiplinin, son yüzyıldaki çalışmalarının, deneylerinin, bulgularının yığınla destek taşıdığı bilimsel bir teoridir.",
+      "hypothesis": "Bu teori, son yüzyılın bilimsel gelişmelerine dayanmaktadır.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ücretlilerin gelirlerindeki azalışı telafi edecek çalışmalar yapıyoruz.",
+      "hypothesis": "Asgari ücretlilerin gelirlerini artırmaya yönelik planlar yapılıyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bunun için bilinçli iletişim kurmayı öğrenmeniz gerekir.",
+      "hypothesis": "Kediler genellikle uyumayı severler.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bedensel engelli masa tenisi sporcusu Neslihan Kavas, Uluslararası Masa Tenisi Federasyonu tarafından \"yılın en iyi kadın sporcusu\" seçildi 38.",
+      "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Barış Arduç'un 1 milyon TL aldığı reklam filmi için 100 bin TL aldığı konuşulan güzel modeli yakın zamanda ekranlarda daha çok göreceğimiz kesin.",
+      "hypothesis": "Uçakların ortalama hızı saatte 800 kilometredir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Yu jong alkolik olan Myung Huyun ile nişanlıdır ama yu jong görevinin gizliliği ve güvenliğinden dolayı işinin ne oldugunu söyleyemediğinden rahatsızdır.",
+      "hypothesis": "Köpeğim bugün veterinere gitti.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Her kaçışa bir bahane bulmak, uydurmak, yaratmak.",
+      "hypothesis": "Bu ifade hakkında farklı yorumlar yapılabilir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bunun üzerine küçükken anne ve babasının öldüğü bir yangından Arnoldın kurtardığı Thomas Builds-the-Fire ona yolculuk için gerekli parayı vermeyi teklif eder.",
+      "hypothesis": "Thomas Builds-the-Fire, Arnold'ın hayatını kurtarmıştı.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "İnsan bazen kendisinden kaçmayı istiyor ama ne mümkün..",
+      "hypothesis": "Kediler genellikle fareleri kovalar.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Hatta uygun şekilde dondurulmuş bu besinleri tazeleri ile besin değeri açısından kıyasladıkları analizlerinde antioksidan ve mineraller açısından bir fark olmadığını belirtiyor.",
+      "hypothesis": "Dondurulmuş besinlerin antioksidan ve mineral içeriği, taze olanlarla aynıdır deniliyor.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Horney'e göre Freud'un teorileri, kız çocuklarının erkek bedenine duyduğu ilgi ve imrenmeyi ortaya koyuyorken, erkek çocuklarının göğüs ve rahim gibi kadınsı organlara karşı duyduğu kıskançlığı göz ardı etmektedir.",
+      "hypothesis": "Horney, Freud'un teorilerinin erkek çocuklarını da kapsamadığını savunuyor.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Fanny is his eleventh and newest book of photographs, featuring photographs of his model and muse Fanny.",
+      "hypothesis": "Ara Güler ünlü bir fotoğrafçıdır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Ayten Hanım'ın eşi ve Yağmur'un babasıdır.",
+      "hypothesis": "Mehmet Bey'in arabası kırmızıdır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Trevanian'ın Şibumi'si, Mario Puzo'nun Baba'sı, Paula Hawkins'in Trendeki Kız'ı da en önemli polisiyelerden sayılmış.",
+      "hypothesis": "Albert Einstein, İzafiyet Teorisi'ni geliştirmiştir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Görsel açıdan oldukça güçlü sahnelere sahip olan Saygı, daha ilk bölümden etkileyici bir atmosfer yaratmış durumda.",
+      "hypothesis": "Saygı dizisinin ilk bölümü etkileyici bir atmosfer oluşturdu.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Fakat çok hareketli bir yaşantınız yoksa, et, peynir ve yoğurt tüketirken zaten vücudunuzun ihtiyacı kadar aldığınız için doymuş, yani katı yağlardan kaçının.",
+      "hypothesis": "Hareketsiz bir yaşam tarzınız varsa katı yağ tüketiminize dikkat etmelisiniz.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Profesyonel olarak spor yapan çocuklar için aile öyküsünün alınması ve fiziki muayenenin yanında EKG, EKO ve efor testi yapılması uygun olmaktadır.",
+      "hypothesis": "Çocuklar için düzenli kan testleri de faydalıdır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Parfümden en iyi yararı sağlamak için aşırı kaçmamaya bakın.",
+      "hypothesis": "Bugün şehirde bir kitap fuarı var.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Nintendo'nun bu yakın zamanda yıktığı ikinci asırlık prensibi olacak.",
+      "hypothesis": "Paris, Fransa'nın başkentidir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "2022 yılında çekimleri gerçekleşen ve birlikte fotoğraflarını gördüğümüz andan itibaren sabırsızlıkla beklediğimiz filmden çok uzun süre haber alamamıştık.",
+      "hypothesis": "Filmin vizyon tarihi henüz belli değil.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Öte yandan İHA'da yer alan habere göre Yalova'da kolonya satışı yapan bir işletmenin sahibi olan Leyla Dilsizoğlu, Keşke gelmeseydi, ama maalesef geldi.",
+      "hypothesis": "Leyla Dilsizoğlu, Yalova'da kolonya satışı yapmaktadır.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Başkaları için girdiğin borç, üstüne düşmeyen işlerde bile ön planda olman seni yormuş artık.",
+      "hypothesis": "Artık çok yorulmuş hissediyorsun.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Genel gebe popülasyonunda sıklığı %12.",
+      "hypothesis": "Gebe kadınların %12'si etkilenir.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "En meşhuru ise 1979'da başlayıp 1986'da sona ermiş TV filmlerinden oluşan The Adventures of Sherlock Holmes and Dr Watson.",
+      "hypothesis": "Sherlock Holmes dizisi 1980'lerin başında yayınlanmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "500 TL ve üstü olanlar için ise 7.",
+      "hypothesis": "Bu ifade kahve tariflerinden bahsetmiyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Burada şu durduğun yerde, nereye gitsen orada işte, hiçbir anı kaybolmayacak.",
+      "hypothesis": "Burada bazı anılar zamanla kaybolabilir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Muhammed'in doğumunu anlatmak için kullanılıyor. ''Mevlid-i Nebi'' olarak da anılan ve Türkiye'de Mevlid Kandili olarak bilinen gece, Müslüman alemi için büyük önem taşıyor.",
+      "hypothesis": "Noel, Hristiyanlar için önemli bir bayramdır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "TDK'ya Göre Suçüstü mü, Suç Üstü mü Olarak Yazılır? Türkçede birçok kelimede olduğu gibi bu kelimenin yazımında da çeşitli hatalar yapılmaktadır.",
+      "hypothesis": "Türkçede yazım kuralları zaman zaman karışık olabilir.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Nuri Bilge Ceylan, Uzak'tan beri yönetmen kahramanım.",
+      "hypothesis": "Nuri Bilge Ceylan'ın Uzak filmi, yazarın beğenisini kazanmıştır.",
+      "true_label": "entailment",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu tarzdan tamamen kaçınmanıza gerek yok, arada saçlarınızı açık bırakarak onlara nazik davranmanız yeterli.",
+      "hypothesis": "Saçlara nazik davranmak, onlara iyi gelmektir.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kadın dergilerinde, medyada, internet ortamında her şeyi tam yapma, mükemmel yaşama tüyoları sürekli kadını zorlamakta yormaktadır.",
+      "hypothesis": "İlgili konularla ilgili farklı bakış açıları bulunabilir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu fantastik deneyim sonucunda, farkında olmadan iyi niyeti ile insanların yaşamları üzerinde ne kadar etkili olduğunu anlar ve hayatının kıymetinin bir kez daha farkına varır.",
+      "hypothesis": "Bu deneyim onun için çok öğretici olmuştur.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Bob's Burgers (17 Temmuz 2020) 20th Century Fox, 2020 yılında vizyona girecek bu animasyon filmiyle, 2011'den bu yana ekranda olan animasyon çizgi filmi Bob's Burgers'ı büyük bir serüvene dönüştürüyor.",
+      "hypothesis": "Filmin yönetmeni bilinmiyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Temmuz ayında faaliyete geçen James Webb Uzay Teleskobu, insanlık olarak daha önce hiç görmediğimiz inanılmaz görüntülere ve büyüleyici anlara tanıklık etmemize olanak sağladı.",
+      "hypothesis": "Teleskop Temmuz ayında açıldı.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Hayata dair pek çok şeyi keşfetmekte olan bu gencin bilmediği ise Maradona'nın hayatını hiç ummadığı kadar önemli şekillerde etkileyeceğidir..",
+      "hypothesis": "Bu genç hakkında gelecek planlarıyla ilgili net bir bilgi yok.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Kırılmaya bağlı omuriliğin birden şişmesi solunum merkezini etkiler ve boğulma meydana gelir.",
+      "hypothesis": "Evde bitki yetiştirmek stresi azaltır",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Ekin Koç Sonucu Göster 7.",
+      "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "İbrahim Kalkan dünyaya gözlerini Çorum'un Osmaniye Köyü'nde 1949'da açtı.",
+      "hypothesis": "Ankara, Türkiye'nin başkentidir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Vücudun kendi iç iletişiminde kullandığı elektriksel sinyallerin ulaştırılmasında da görevler üstlenen magnezyum, kan basıncı, nöron ve kan dolaşımı arasındaki elektrik uyarılarının stabilize edilmesine de katkı sağlıyor.",
+      "hypothesis": "İnsan vücudunun %60'ı sudan oluşur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "TCMB enflasyon hedefi kapsamında TÜFE bazlı REK'i esas alıyor.",
+      "hypothesis": "Dünya genelinde uzay programları için yeni bütçeler onaylandı",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "1.sqspcdn.com Sevgilerle,Ex kız arkadaşın ve çetesi.",
+      "hypothesis": "İletiyi bir eski sevgili göndermiştir.",
+      "true_label": "entailment",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "42 puan Karadeniz Teknik Üniversitesi, 1955 yılında Trabzon'da kurulmuştur.",
+      "hypothesis": "Boğaziçi Üniversitesi, 1863 yılında İstanbul'da kurulmuştur.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Marker severler buraya! Temiz ve detaylı çizimlerle dolu bir hesap.",
+      "hypothesis": "Bu hesap hakkında daha fazla bilgi paylaşılmıyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Bu sevgi kelebeklerinin oluşturduğu sevgi kalabalığının suyunu fazla çıkarmadan, kısa süresiyle fazladan sahne kalabalığı yapmadan konusunu işlemiş olan film, keşke süreyi biraz uzatıp, daha dramatize olsaydı dedirtmiyor da değil.",
+      "hypothesis": "Film bütçesiyle ilgili ayrıntılar verilmemiş.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Taklit ve tağşiş yapılan birçok ürün olduğunu söyleyen Gıda Mühendisleri Odası Antalya Şubesi Başkanı Ali Manavoğlu, Ancak aralarında en riskli olanların başında süt ve süt ürünleri geliyor.",
+      "hypothesis": "En çok tüketilen ürünlerin başında tavuk ve tavuk ürünleri geliyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Bu Pokemon'un foyası dibine girince ortaya çıkar, zira kendisi şiirli edebiyatlı bir şeylerle de değil, bariz yürüyeceği kızın profiline uygun Tweet atma çabasındadır.",
+      "hypothesis": "Bu Pokemon'un gerçek niyeti, etkilemeye çalıştığı kızın profiline uygun tweetler atarak ortaya çıkar.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Pek çok kozmetik dermatoloji uygulaması ile cilt sağlığı korunabilmekte, istenilen görünüm elde edilebilmektedir.",
+      "hypothesis": "Kozmetik dermatoloji uygulamaları, cilt görünümünü iyileştirmek ve cilt sağlığını desteklemek için kullanılabilir.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ayrıca kızlarda ilk adet 10-15 (ortalama 12,5) yaşları arasında başlıyor.",
+      "hypothesis": "İnsan vücudunda 206 kemik bulunur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Yılın ilk 8 ayında toplam 458 bin 446 adetlik pazarda Fiat, Renault, Ford, Toyota, Hyundai, Karsan ve Isuzu markalarının öncülüğünde yerli üretim araç satışı 198 bin 561 oldu.",
+      "hypothesis": "Pazarda elektrikli araçlar hakkında bilgi verilmemiştir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Jüri üyeleri Kısa Belgesel Film Yarışmaları'nda ise, ulusalda Malaz Usta'nın Sürgünde Bir Yıl, uluslararasında ise Alex Evstigneev'in Altın Düğmeler / The Golden Buttonsi En İyi Kısa Belgesel Film seçti.",
+      "hypothesis": "Kısa Belgesel Film Yarışmaları'nda ödül alan filmler belli oldu.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Bu dönem, özel hayatınızdan çok dış dünyadaki konumunuza odaklanın.",
+      "hypothesis": "Bu dönem kariyerinize öncelik verin.",
+      "true_label": "entailment",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Erkeklik, Old Spice duş jeli tarafından ciddiye alındığı için bu ürün 2'si 1 arada bir formülle geliyor.",
+      "hypothesis": "Kediler evcil hayvanlardır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Yine de Dracula külliyatı ve Van Helsing karakterinin potansiyeli düşünüldüğünde, Sharknado'ya yapacakları yatırımı, şu diziye kaydırabilirlerse belki kendilerinin dönüşüne vesile olacak bir işe imza atabilirler.",
+      "hypothesis": "Sharknado ile ilgili yatırım kararları belirsizliğini koruyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu açma-kapama davranışı saatlerinin bu şekilde olma sebebi, diğer bitkilerden biraz daha farklı bir nektar rehberi desenine sahip olmasıdır.",
+      "hypothesis": "Bu bitkilerin çiçeklenme zamanı hakkında bilgi verilmiyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Bir kere zaten yeni bir Dune filmi çekiliyor olması aynı anda hem baş etmesi çok zor, hem de hakkında heyecanlanmaması imkansız bir gelişme.",
+      "hypothesis": "Yeni bir Dune filmi yapılması bazı insanlar için karmaşık duygular uyandırıyor.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "2022 yılının nisan ayında ünlü iş insanı Mehmet Dinçerler ile aşkını nikahla taçlandıran Hadise Çırağan Sarayı'nda evlenmesinin ardından geçen beş ay sonra boşanma kararı almıştı.",
+      "hypothesis": "Hadise, Mehmet Dinçerler ile evlendikten beş ay sonra boşandı.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Yarım bırakmış olduğumuz eski bir eğitimi tamamlamak için uygun bir dönemdeyiz.",
+      "hypothesis": "Bu dönemde uzunca planladığımız bir seyahat var.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Oral bakterilerle birleştirilmiş intranazal aşının influenza virüsünden ve SARS-CoV-2 enfeksiyonundan koruduğunu gösterdik.",
+      "hypothesis": "Bazı hayvanlar kış uykusuna yatar.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bunun içerisine karakterin sınırlamaları da dahil.",
+      "hypothesis": "Karakterin olanakları da buna dahildir.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Oscar Ödüllü oyuncularından oluşan kadroyu Polonyalı sinemacı Roman Polanski yönetiyor..",
+      "hypothesis": "Yönetmen, Macar değildir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Sıcak suya konulan ayak, nemlenir.",
+      "hypothesis": "Sıcak suya konulan ayak, kurumaya başlar.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Şirketlere hediyeleşme sürecinde her türlü profesyonel desteği sağlayan bu firma fikir aşamasından teslim sürecine kadar her aşamayı profesyonel ekibiyle kusursuz bir şekilde yönetiyor.",
+      "hypothesis": "Firma, hediyeleşme sürecinin hiçbir aşamasında hata yapmıyor.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Sonrasında Zeus'u böyle devşirdik! Kimileri ise Eşref Amca'dan ziyade Spanakopita'ya takıldı. 😓 Eşref Amca kırmızı çizgimiz! Geyikler böyle devam ederken..",
+      "hypothesis": "Amerika Birleşik Devletleri'nin başkenti Washington'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Tabii bu, avukatları sevmemizin görünen sebebi.",
+      "hypothesis": "Bu, avukatları sevdiğimizin görünen sebebidir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Anadolu'da bitmeyen kan davaları yine bir can almış ve Dila Hanım'ın kocası, Rıza Karadağlı'nın aşiretinin adamlarınınca öldürülmüştür.",
+      "hypothesis": "Anadolu'da turizm endüstrisi hızla büyüyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Ayrıca eklemek gerek, Edgar Wright'ın Ant-Man'den ayrılmasının sebebi olarak da yukarıda saydığımız komite gösteriliyordu; o yüzden o noktada da yönetmenlere daha fazla bağımsızlık katacak bir yapılanma da olabilir bu.",
+      "hypothesis": "Edgar Wright'ın ayrılışıyla ilgili başka nedenler de gündeme gelebilir.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Pirinç, makarna, müsli, alkol ve kahve tüketimi de kısıtlı tutulmalı.",
+      "hypothesis": "Bu gıdaların tüketiminde aşırıya kaçılmamalıdır.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Tomek'in, kendisini bekleyen acımasız kader hakkında hiçbir fikri yoktur.",
+      "hypothesis": "Tomek geleceğinden habersizdir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Vanilyayı ekleyip karıştırın. - Un, karbonat, tuz ve tarçını eleyin.",
+      "hypothesis": "Buzdolabında mayalanan hamur iki katına çıkmalıdır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Dolayısıyla Kene'nin tüm saçma hareketleri, saflıkları ve şaşkınlıkları da sırıtmıyor.",
+      "hypothesis": "Kene her zaman ciddi ve soğukkanlıdır.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Görünümünüzü beyaz spor ayakkabılarla sportif hale getirebilirsiniz.",
+      "hypothesis": "Bugün hava yağmurlu.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bir akşam kesici, dondurucu bir karayel fırtınası arasında zavallı bir sivrisinek inceliğiyle kabak çekirdekçinin sesini duydum.",
+      "hypothesis": "Gece sessizdi ve yağmur yağıyordu.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu bölgeler oldukça narin olduğundan dikkatli olmakta fayda var. - Kolay akmayan, kalıcılığı daha yüksek ve kaliteli bir kalem edinin.",
+      "hypothesis": "Bu bölgelerin hassasiyeti, kullanılan malzemenin kalitesini etkiliyor.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Kapak tasarımı Mert Kaygusuz'a ait olan Olamayanların Mabedi, aynı zamanda Türkiye'nin en genç yayınevlerinden Doğan Solibri'nin de ilk romanı olma özelliğini taşıyor.",
+      "hypothesis": "Doğan Solibri yayınevinin ilk romanı olan \"Olamayanların Mabedi\"nin kapak tasarımını Mert Kaygusuz yapmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Yıllarca emek verdikten sonra aşkı Bülent Şakrak'ta buldu, yeniden evlendi, bir çocuk sahibi daha oldu ve mutlu aile fotoğrafının sözlükteki tanımı haline geldi.",
+      "hypothesis": "Türkiye'nin en kalabalık şehri İstanbul'dur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Herkes sana isminle hitap ederdi ama ben sana melek derdim çünkü sen melekler kadar saf ve temiz kalpli biriydin, beni her zaman düşünen bir melek gibiydin.",
+      "hypothesis": "Ama aslında sen melek değildin.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Cildiniz birkaç dakika içinde aşırı soğuğa tepki verip renk değiştirebilir.",
+      "hypothesis": "Hava bugün çok güzel.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Yine de bazı çalışmalar, egzotik maddeye ihtiyaç duyulmadan da warp sürücülerinin yapılabileceğini gösteriyor.",
+      "hypothesis": "Warp sürücülerinin egzotik maddeye ihtiyaç duyulduğu yönünde çalışmalar bulunuyor.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Buradaki asıl sorumlu ise oyunculuklardan ziyade karakterlerin derinliksiz yazılmasıyla ilgili.",
+      "hypothesis": "Bu eleştiri, sahnenin uzunluğuyla ilgili olabilir.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Sen yine bu yaşananları içine atıyorsun.",
+      "hypothesis": "Bugün hava çok güzel.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "1984 yılında Arktik buzullarının 1.",
+      "hypothesis": "1984 yılında Arktik buzullarında artış yaşanmıştır.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Sunum hem Youtube, hem de Twitch üzerinden takip edilebilecek.",
+      "hypothesis": "Sunumun hangi platformlarda takip edilebileceğine dair başka bir bilgi yok.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Beri yanda masmavi gözleriyle tüm bunlara bir anlam veremeyen, benden 3 4 yaş küçük kuzenim limon ağacına dikmiş gözlerini öyle suskun, öyle mahzun dikilmişti.",
+      "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Eldiven kullanımlarında aynı eldiven ile birden fazla yüzeye temas edilmemeli, sık eldiven değişimi konusunda personel sürekli takip edilmeli ve uyarılmalı diye konuştu.",
+      "hypothesis": "En sevdiğim renk mavidir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Rina, insanların hayalleri ve istekleri için ne kadar fedakarlık yaptıklarını sorgularken; komedi ile dramı iç içe sinematografik bir şekilde izleyiciye sunuyor.",
+      "hypothesis": "Film müzik kullanımı hakkında tartışmalar var.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Savaşta kahramanlarımızın plot zırhlarının kalınlığına mı güvendim, yoksa o sahne tamamen yanlış bir şekilde mi çekildi bilemiyorum ama tüylerimin diken diken olması gereken bu sahnede hiçbir şey hissetmedim.",
+      "hypothesis": "Bu sahnede tüylerim diken diken oldu.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Netflixin ilk 2 son 2 bölüm fikrine uymuşlar gibi hissediyorum umarım daha da bağlayıp 3. sezona bırakmazkar.",
+      "hypothesis": "Dizinin geleceği henüz belirsiz.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Kovo N'Sonde tarafından tercüme edilerek uyarlandı.",
+      "hypothesis": "Kovo N'Sonde ile ilgili daha fazla bilgi henüz açıklanmadı.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Galli müzisyen Cate Le Bon eşliğinde kaydedilen ve yine bir yolculuktan bahseden Slow Train ise bu solo çıkışta yer alan tek iş birliği.",
+      "hypothesis": "Bu şarkıda sadece Cate Le Bon ile işbirliği yapılmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Bu tatlıyı krema veya erimiş çikolatayla daservis edebilirsiniz.",
+      "hypothesis": "Bu tatlıyı, yanında tuzlu krakerlerle servis edebilirsiniz.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Sabah kahvaltısını çocuğunuz için ne tam buğday ekmeği ne de cevizle zenginleştirebilirsiniz.",
+      "hypothesis": "Sabah kahvaltısını çocuğunuz için ne tam buğday ekmeği ne de cevizle zenginleştirebilirsiniz.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Westworld'ün tam izleyici rakamları henüz belli değil, ancak, Deadline'ın haberine göre Michael Crichton'ın aynı adlı eserinden uyarlanan dizi, ilk bölümüyle 3.",
+      "hypothesis": "Diziyle ilgili izleyici rakamları hâlâ kesinleşmedi.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Eylem yaparım, gerekirse valiliğe yalnız başıma yürürüm! diye konuştu.",
+      "hypothesis": "Elma, bir meyvedir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Yapımla ilgili ilk fragman mart ayında paylaşılmıştı.",
+      "hypothesis": "Filmin vizyon tarihi yaz aylarına ertelendi.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Elbette sularımızda da var diyor Hakan gülerek.",
+      "hypothesis": "Bugün hava çok güzel diyor Ayşe gülerek.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Sınıfta hafif bir kahkaha koptu.",
+      "hypothesis": "Sınıfta sessiz bir gürültü oldu.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Festival afişinde bu yıl, başrolünde Jim Carrey'nin rol aldığı unutulmaz Peter Weir filmi \"The Truman Show\" yer aldı.",
+      "hypothesis": "En sevdiğim yemek makarnadır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Öykü Seine Kıyısında Valjean ile Javert arasındaki ölümcül karşılaşma ile son bulur.",
+      "hypothesis": "Hikaye Japonya da bir okulda geçer.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "İleri yaşlarında çekilmiş fotoğraflarında kadife beresi, kürk astarlı pelerini ve sanatçı yönüne vurgu yapan hafif gevşek kravatı ile pozlar vermiş, ve bu fotoğrafları bastırarak dağıtmıştı.",
+      "hypothesis": "Mozart klasik batı müziği bestecisidir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Aynı araştıramaya göre eşleri ile tartışırken cevap verip içine atan kadınlar, cevap verip tartışan kadınlara göre 4 kat daha fazla kalp hastalığı riski taşıyor.",
+      "hypothesis": "Aynı araştıramaya göre eşleri ile tartışırken cevap veren kadınlar, cevap verip tartışan kadınlara göre kalp hastalığı riski daha yüksektir.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "D23'te Disney serinin dokuzuncu filminin yönetmenini açıkladı.",
+      "hypothesis": "D23'te Disney yeni bir filmin duyurusunu yaptı.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ortalama 76 yaşında 2 bin 820 kişini katıldığı araştırmanın sonuçları Sleep dergisinde yayımlandı.veteknoloji.",
+      "hypothesis": "Araştırma sonuçları uyku üzerine yapılan bir bilimsel yayında yer aldı.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Gördüğü katilin ise iki yıl önce bir trafik kazasında öldüğünü öğrenir.",
+      "hypothesis": "Kahve, kafein içeren bir içecektir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Kilometreye dikkat edin İkinci el araçların marka modeli ve fabrika çıkış yılı ile birlikte kilometre bilgisi de aracın değerini belirleyen unsurlardan biridir.",
+      "hypothesis": "İkinci el araç alırken sadece fiyata odaklanmak yeterlidir.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Mesela bir yabancı olduğunuzu düşünün, bindiğiniz gemi İzmit Limanı'na yanaşıyor ve siz de oh ne güzel hemen inip bir İstanbul turu yaparım diye planladınız.",
+      "hypothesis": "İstanbul turu yapmayı hemen planladınız.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Frasier Frasier'ı ne kadar övsem az.",
+      "hypothesis": "Frasier'ı övmek için kullanılan kelimeler yeterlidir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Yamaç Koçovalı olarak koymayı düşünüyor.",
+      "hypothesis": "O çocuğa Yamaç Koçovalı ismi verilecek.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "2017 yılındaki yarışmada birinciliği, mülteci sorunu ile alakalı çizdiği karikatür ile kazanmıştır.",
+      "hypothesis": "2017 yılındaki yarışmada birinciliği, iklim değişikliği ile alakalı yazdığı bir kompozisyon ile kazanmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Nefret ettiğim bir şey daha varsa, o da insanların kendinizi berbat hissettiğinizi bildikleri halde neşeyle hatırınızı sorup, iyiyim, demenizi beklemeleridir.",
+      "hypothesis": "Benim en sevdiğim şeylerden biri insanların hatırımı sormasıdır.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Bu etkiler, televizyon, sosyal medya, video, basılı yayın ya da radyo yoluyla her saat başı, haber bombardımanına maruz kaldıkça artar.",
+      "hypothesis": "Olaylar hakkında spekülasyonlar sürüyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Anlaşmalı otomotiv firmaları binek araçlarda Fiat, Honda, Hyundai, Renault Mais olurken, ticari araçlarda Fiat, Ford, Isuzu, Karsan ve Temsa şeklinde açıklandı.",
+      "hypothesis": "Türkiye'nin en büyük gölü Van Gölü'dür.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Annesi ölünce Hatice aslında bunun nedeninin nasılının peşinden gitmeyi gereksiz buluyor gibi geliyor bana.",
+      "hypothesis": "Hatice günlük yaşamına odaklanmıştır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Süt dişlerinin kendiliğinden ve zamanında düşmelerini sağlamak, hem çekim ve erken dönem tel tedavilerini hem de ilerde oluşabilecek olan ortodontik problemleri engeller.",
+      "hypothesis": "Dünya'nın en yüksek dağı Everest'tir.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bakanlık, Nükleer Düzenleme Kurumunun görüşünü alarak Ulusal Radyoaktif Atık Yönetim Planı'nı belirleyecek.",
+      "hypothesis": "Bugün şehir merkezinde kermes var.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Ortak senaristi olduğu Korkuyorum Anne dışındaki tüm filmlerinin senaryoları yönetmen tarafından kaleme alınmıştır.",
+      "hypothesis": "Yönetmen Korkuyorum Anne filminde senaristlerden biri değildir.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Egonu parkede gösterdiği mücadele ile büyük beğeni toplasa da, asıl gözleri üzerine çekmesindeki neden boyadığı saçları oldu.",
+      "hypothesis": "Egonu'nun saç rengi, onun performansının önüne geçti.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Bölüm zaten doğru yaptıklarına devam ediyor, bu bölüm de etti.",
+      "hypothesis": "Bu bölüm, önceki bölümler gibi hatalı değil.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Ama en genel, zamansız olanlardan ve bana kendini en sık hatırlatanlardan biri olarak diyebilirim ki, hayat birbirine zıt görünen olayların iç içe geçtiği bir organizma.",
+      "hypothesis": "İkilinin arasında soğuk rüzgarlar estiği konuşuluyor.",
+      "true_label": "entailment",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Kölelik sistemi üzerine daha önce dile getirilmeyenleri içeriden bir gözle sunan yazar siyahi bir ailede gerçekleşen kişisel varoluş hikayesine odaklanıyor.",
+      "hypothesis": "Roman, İkinci Dünya Savaşı'nda geçen bir aşk hikayesini anlatıyor.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Cumhurbaşkanlığı Kabinesi de bugün bir kez daha alınaca tedbirleri görüşmek üzere video konferans yoluyla toplandı Cumhurbaşkanı Erdoğan, toplantıya çalışmalarını sürdürdüğü İstanbul Tarabya Huber Köşkü'nden katıldı.",
+      "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "En son çıkan dedikodular, Isaac'in Star Wars'ta bir rolünün garanti olduğunu söylüyor.",
+      "hypothesis": "Isaac'in Star Wars'ta bir rolünün garanti olduğu iddiası doğru değildir.",
+      "true_label": "contradiction",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Küçük bir köye, muhafızıyla gelen bir Aes Sedai'nin oluşturduğu gerginliği çok verdiğini düşündüğüm Winespring Inn klibi, karakterlerimizin birbirleriyle olan ilk etkileşimlerini göstermesi açısından büyük bir önem arz ediyor.",
+      "hypothesis": "Winespring Inn klibi karakterlerin ilk karşılaşmasını gösteriyor.",
+      "true_label": "neutral",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "This springtime view of the Jefferson Monument beyond the tranquil tidal basin is flanked by ethereal cherry blossoms.",
+      "hypothesis": "The Lincoln Memorial can also be seen from the Tidal Basin.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu sayede şık ve sade bir görünüme sahip.",
+      "hypothesis": "Bugün hava yağışı bekleniyor.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Osman tabii ki her bir denemede ayrı bir çuvallıyor ve tokat yiyen taraf yine Şevket oluyor.",
+      "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Bu sorunlar en kolay besleme ile düzeltilebilir.",
+      "hypothesis": "Bu sorunların giderilmesi için bir fizyoterapiste başvurulmalıdır.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Sonrasında saldırmaya devam etti' dedi.",
+      "hypothesis": "Olayla ilgili başka bir açıklama yapılmadı.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "İzleyiciler, ilk izleyişlerinde filmin birbirinden kopuk diyaloglardan oluştuğunu düşünebilir ama filmin insanın ilgisini çeken garip bir atmosferi var.",
+      "hypothesis": "En sevdiğim çiçek orkide.",
+      "true_label": "neutral",
+      "predicted_label": "contradiction",
+      "predicted_id": 2
+    },
+    {
+      "premise": "Eski metinler, baharatlı, bitki kökenli şarapların varlığından bahsediyor, ancak bugüne kadar hiçbiri keşfedilmedi.",
+      "hypothesis": "Baharatlı, bitki kökenli şarapların geçmişte var olduğuna dair kanıtlar bulunmaktadır.",
+      "true_label": "entailment",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "Sonucun da da aralarındaki sevgi bağı zaman içinde çürümeye başlar.",
+      "hypothesis": "Güneş sistemi dokuz gezegenden oluşur.",
+      "true_label": "neutral",
+      "predicted_label": "neutral",
+      "predicted_id": 1
+    },
+    {
+      "premise": "Büyük beyaz köpek balıkları, hiçbir şey yemeden aylarca yaşayabilirler 12.",
+      "hypothesis": "Büyük beyaz köpek balıkları, aylarca beslenmek zorunda değildir.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    },
+    {
+      "premise": "İnanın bu ahlaksız şahsın olduğu tarafta değiliz.' diyerek kadın yolcunun yanında olacaklarını belirtti.",
+      "hypothesis": "Kadın yolcuyu destekliyorlar.",
+      "true_label": "contradiction",
+      "predicted_label": "entailment",
+      "predicted_id": 0
+    }
+  ]
+}
