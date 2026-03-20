@@ -17,7 +17,7 @@
       "wrong_count": 1833,
       "accuracy": 0.7965
     },
-    "google/gemma-*-27b-it": {
+    "google/gemma-3-27b-it": {
       "correct_count": 7327,
       "wrong_count": 1681,
       "accuracy": 0.8134
