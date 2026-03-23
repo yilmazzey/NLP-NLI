@@ -1,0 +1,1402 @@
+[
+    {
+        "index": 1,
+        "premise": "Savcının fitne - fesat içinde olduğunu söylemek için mangal gibi yürek lazım.",
+        "hypothesis": "Savcının fitne fesat içinde olduğu iddia edilebilir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 2,
+        "premise": "Tatil döneminde arkada bırakılan evleri hırsızlardan korumak ve olası hırsızlık girişimine engel olmak için en caydırıcı yöntem elektronik güvenlik sistemi kullanmaktır.",
+        "hypothesis": "Tatil sırasında evleri korumak için en etkili yöntem, elektronik güvenlik sistemidir.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 3,
+        "premise": "İfadeler: Otomatik Mandalina, WronzG ve Ehweniscer saphary Hectopat Katılım 2 Eylül 2019 Mesajlar 4.",
+        "hypothesis": "Facebook 2004'te kuruldu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 5,
+        "premise": "Tabii o dönem Moskova ve St.",
+        "hypothesis": "Bu ifade, Moskova ve St. Petersburg gibi şehirleri kapsayabilir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 7,
+        "premise": "Türkiye'de 2004 yılından beri uygulamada olan iflas erteleme mekanizması, Temmuz 2016'da çıkan bir Kanun Hükmünde Kararname ile yasaklandı.",
+        "hypothesis": "Mars, Güneş sistemindeki dördüncü gezegendir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 22,
+        "premise": "Tarafımdan onarım için 2450 TL ücret istenmiştir.",
+        "hypothesis": "Onarım için bana 2450 TL ödeme talep edildi.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 27,
+        "premise": "İlgi duyan arkadaşlara yararlı olması dileğiyle.",
+        "hypothesis": "İlgi gösteren arkadaşların faydalanması ümidiyle.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 32,
+        "premise": "Sabah aracımızla yola çıktık, yolculuğumuz yaklaşık 2 saat sürdü.",
+        "hypothesis": "Sabah aracımızla yola çıktık, yolculuğumuz 2 saatten daha uzun sürdü.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 36,
+        "premise": "Safari'nin herhangi bir avantajı var mı? Yoksa fark etmez ne kullanıyorsan kullan, aradaki farklar önemsiz mi? Arkadaşta sadece daha hızlı deyip geçti konuyu, kendisi de pek bilmiyordu.",
+        "hypothesis": "Safari'nin gerçekten avantajı var mı yoksa fark etmez mi; arkadaş sadece daha hızlı olduğunu söyledi, pek de anlamıyordu.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 38,
+        "premise": "In this spinning disk, bits of dust and rock stuck together to form the Earth, according to Space.com, a sister site of Live Science.",
+        "hypothesis": "Dünya toz ve kaya parçalarının bir araya gelmesiyle oluşmuştur.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 39,
+        "premise": "Özetle, konut alımı konusunda pek çok belirsizlik ve soru işareti var.",
+        "hypothesis": "Kısacası, ev satın alma konusunda birçok bilinmeyen ve cevaplanması gereken soru bulunmaktadır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 40,
+        "premise": "Bir yandan bu madde “normal” yaşam sürebilecek olup da tıbben sorunu olmayan kişilerin evlenme haklarının önünü açıyor olsa da, uygulamada kadınlar açısından sorunlarla karşılaşmak mümkün.",
+        "hypothesis": "Bu madde, tıbben sorunu olmayanların evlenme hakkını genişletiyor, ancak kadınlar bu konuda sorun yaşayabilir.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 43,
+        "premise": "Üçüncü taraf çerezlerini kabul et Bu sorunu yavaş yavaş değil, aniden yaşamaya başladım.",
+        "hypothesis": "Bu sorunu, yavaş yavaş değil, aniden deneyimlemeye başladım — özellikle üçüncü taraf çerezlerini kabul ettikten sonra.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 47,
+        "premise": "Manzarayı izledikten sonra dükkanı gezdik.",
+        "hypothesis": "Sinemaya gittikten sonra yemek yedik.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 53,
+        "premise": "Madem hatlardan kaynaklı internet kesintisi olacaktı, beni başka bir hatta taşıyacaklardı önceden bildirmeleri gerekirdi.",
+        "hypothesis": "İnternet hatlarında kesinti olacaktıysa, önceden haber vermeleri gerekirdi; başka hatlara geçecektim.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 57,
+        "premise": "Kaptan Kanca o kadar korkmuştu ki hemen gemiye koşmaya başlamıştı.",
+        "hypothesis": "Evde ekmek kalmamış.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 61,
+        "premise": "En geç yarın bu sürecin olumlu ya da olumsuz hiç fark etmez, sonuçlanmasını istiyorum.",
+        "hypothesis": "Bu sürecin en geç yarına kadar tamamlanmasını istiyorum.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 70,
+        "premise": "Konuyla ilgili 02/10 tarihinde yaptığım 1-58553331170 numaralı şikayet de halen sonuçlanmamış ve 153 üzerinden bilgi istediğimde sonuçlanınca bilgi verilecektir minvalinde belirsiz cevaplar verilmiştir.",
+        "hypothesis": "Başvurumun incelenmesi tamamlanmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 71,
+        "premise": "873 Makaleler 9 Çözümler 57 27 Kasım 2021 Şöyle temiz bir dünya dedin.",
+        "hypothesis": "27 Kasım 2021'de yayınlanan 873 makale ve 57 çözümle ilgili notlar var, dünya temizliğiyle ilgili bir şey söyledin.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 78,
+        "premise": "Bu aylarda hava sıcaklıkları uygun ve yağış düşük olduğu için turistlerin ziyareti için en uygun zamanlardır.",
+        "hypothesis": "Bu aylarda yoğun kar yağışı görülür.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 83,
+        "premise": "Beton olmasaydı, bugün büyük şehirlerimiz nelerden oluşurdu? Çimento, su, kırık taş, çakıl ve kum karışımından oluşan beton, modern şehirlerdeki hemen hemen her bina projesinde kullanılmaktadır.",
+        "hypothesis": "Eğer beton olmasaydı, şehirlerde inşa edilen yapılar başka malzemelerden yapılırdı, çünkü beton yoksa binalar farklı olurdu.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 90,
+        "premise": "Ama en güzeli mutlu yattım:) lilyum10 iştah kapatmıo iştah açıyomuş... hıkaye yanı BinbirRenk \"Nesfit ile yaz kış demeden formunuzu koruyun.\" diye bir reklam var.",
+        "hypothesis": "Güneş Sistemi'ndeki en büyük gezegen Jüpiter'dir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 94,
+        "premise": "Çok geçmeden önlerine geniş bir çay çıkmış.",
+        "hypothesis": "Yolculuk sırasında bir mola vererek kahvelerini yudumladılar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 117,
+        "premise": "MSC divina gemisiyle.. kesinlike tavisye ederim.",
+        "hypothesis": "Titanic gemisi batmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 122,
+        "premise": "Hatta Burcu'ya tuvalet eğitimini dahi Şita vermiş.",
+        "hypothesis": "Kedim her gece miyavlıyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 126,
+        "premise": "905 Şehirler arası yolculuk yaparken araç sollamaya kalkıyorum eve sol şerit ihlalinden 314 TL para cezası geliyor.",
+        "hypothesis": "The police issued a fine of 314 TL for lane violation while I was trying to overtake during a long-distance trip.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 128,
+        "premise": "Gün geldi sonsuz karanlığa uğurladım sevdiklerimi, Ağladım.",
+        "hypothesis": "Dün yeni bir araba satın aldım, çok mutluyum.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 129,
+        "premise": "Sonra şifreyi tekrar aktive ettik tabii ki onda da sürekli sıkıntı oldu.",
+        "hypothesis": "Bilgisayarımın ekran kartını değiştirdim.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 132,
+        "premise": "Hatta farklı bir firmayı tercih etseydiniz.",
+        "hypothesis": "Balıklar suda yaşar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 141,
+        "premise": "Ancak James, asla 19. yüzyıl Britanya toplumunun bir parçası olamadı.",
+        "hypothesis": "Marie Curie radyoaktivite üzerine araştırmalar yapmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 154,
+        "premise": "Ancak arıza devam edince makineyi alıp götürdüler.",
+        "hypothesis": "Makine tamir edilmiş ve geri getirilmiş.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 159,
+        "premise": "Açıkça görülmektedir ki planlı şekilde yaparak kendilerine menfaat oluşturmaktadırlar.",
+        "hypothesis": "Tüm eylemler yasalara uygundur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 160,
+        "premise": "2 günlük ücretimi de geri istedim.",
+        "hypothesis": "Paramın iadesini talep ettim.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 167,
+        "premise": "Yüzüklerini koydukları taşı kaldırıp bakmış ki hiçbiri gelmemiş.",
+        "hypothesis": "Yüzüklerin hepsi o taşın üzerindeydi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 175,
+        "premise": "0546********33 Destekle Paylaş Kaydet Yorum Yaz Benzer Şikayet Yaz Üye marka, tüm şikayetlere geri dönüş yapmak ve müşteri memnuniyetini artırmak için platformda yerini alır.",
+        "hypothesis": "Marka, müşteri şikayetlerine yanıt vermekte kararsızdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 176,
+        "premise": "Kod:Panoya kopyala chrome://settings/siteData ya girin ve bu kısımdan sitenin urlsini girerek çerezi silin. @Silinen üye Gezdiğiniz internet sayfasından gelmiştir o zaman.",
+        "hypothesis": "Çerezleri silmek için farklı bir yöntem denedim.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 177,
+        "premise": "Yazık gerçekten çok yazık, bu kadar basit bir site olduğunu bilseydim ne kaydolurdum ne de oynardım.",
+        "hypothesis": "Everest Dağı, dünyanın en yüksek dağıdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 183,
+        "premise": "Bir tıkla dünya turu ayağınızda! Online şekilde gezebileceğiniz, Türkiye'de bulunan A'dan Z'ye tüm sanal müzeler, örenyerleri, şehitlikler ve tarihi yerler.",
+        "hypothesis": "Bu tür online tur hizmetleri hakkında daha fazla bilgi almak gerekir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 191,
+        "premise": "Burada hele ki antalya'da pek yapan yer yok, sağlık ocağı yapardı eskiden o da kalktı.",
+        "hypothesis": "Antalya'da günümüzde birçok yer bu uygulamayı yapıyor, sağlık ocağı da dahil.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 192,
+        "premise": "Son sigortalılık haline göre ölüm aylığı bağlanamaması durumunda, diğer sigortalılık hallerindeki hizmetlerine göre ayrı ayrı değerlendirme yapılarak, aylığa hak kazanacağı sigortalılık hali esas alınarak aylık bağlanacak.",
+        "hypothesis": "If a death pension cannot be granted based on the last insurance status, it will be assessed separately according to other insurance periods, and the pension will be awarded based on the insurance status that entitles to it.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 194,
+        "premise": "Yeni Zigana Tüneli çift tüp olarak 2x14,5 kilometre uzunluğu ile Doğu Karadeniz ve Kafkasları, Ortadoğu ve İran'a bağlayan önemli bir güzergah olacak.",
+        "hypothesis": "Gotthard Base Tüneli, İsviçre'de bulunmaktadır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 202,
+        "premise": "Bir insan kendini fiziksel olarak ne kadar zorlayabilir? Günlerce hiçbir ulaşım aracı kullanmadan, sırtında çantası ile, tek başına bilmediği bir coğrafyada yürüyerek olabilir mi? İşte o kişi Dicle Doğan.",
+        "hypothesis": "Dicle Doğan bu tür zorlu yürüyüşleri gerçekleştirebilir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 203,
+        "premise": "Bu yüzden her seferinde çorapların bir tekini alıyorum ama hiçbiri benim ayağıma uymuyor.",
+        "hypothesis": "Birçok çorap alıyorum.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 209,
+        "premise": "Not: Önce kamerayı çıkarıp sürücüyü kur.",
+        "hypothesis": "Not: Sürücüyü kurmadan önce kamerayı takın.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 214,
+        "premise": "Çobanın biri, dağda koyun otlatıyormuş.",
+        "hypothesis": "Ankara, Türkiye'nin başkentidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 223,
+        "premise": "Yemek bittikten yarım saat sonra mide bulantısı karın ağrısı başladı.",
+        "hypothesis": "Su, hidrojen ve oksijenden oluşur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 232,
+        "premise": "Media markta süpürgeyi tekrar götürdüm duruma itiraz ettim onlarda bana hak verdiler.",
+        "hypothesis": "Amazon Nehri Güney Amerika'da bulunur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 234,
+        "premise": "Magyar Balazs komutasında 600 kişilik bir kuvveti, başka bir söylentiye göre de 2.",
+        "hypothesis": "Magyar Balazs'ın komutasındaki kuvvetin büyüklüğü tartışmalıdır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 239,
+        "premise": "Tekrar Siemens müşteri hizmetlerini arayarak kampanyanın devam ettiğini öğrendik.",
+        "hypothesis": "Mars, Güneş Sistemindeki dördüncü gezegendir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 243,
+        "premise": "Herodot'un ismi The Histories adlı eserinden dolayı tarihle anılmaktadır.",
+        "hypothesis": "Herodot bir yazardır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 247,
+        "premise": "Ama hala HDMI + 5.",
+        "hypothesis": "Yeni televizyonumda sadece USB-C portu var.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 251,
+        "premise": "5 saat sonra akıtan klima için Üçkuyular şube 0232 -285-22-** den p** hanım aradım 1 gün sonraya gelinecek denildi gelmediler.",
+        "hypothesis": "Klima servisi randevusuna uyulmadı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 255,
+        "premise": "Ben kitaplarımı gece yatmadan önce okuyorum ve bu kitabı bitirene kadar 3 gece uykusuz kaldım çünkü kitabı bırakmak istemiyor insan.",
+        "hypothesis": "Kitap okuyucuyu kendine bağlamış.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 261,
+        "premise": "O ülkeye Euro veya Dolar ile gitmeniz gerekiyor.",
+        "hypothesis": "O ülkeye gitmek için Bitcoin kullanabilirsiniz.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 265,
+        "premise": "Bu insan emeğinin en büyük eserlerinden birini oluşturmak için gerekli malzemeyi önceden yapılmış iç surların yıkımı ile sağladı.",
+        "hypothesis": "Bu insan emeğinin en büyük eserlerinden birini oluşturmak için gerekli malzeme yeniden kullanıldı.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 267,
+        "premise": "1 sayfada en fazla kaç reklam olabiliyor birşeyi merak ediyorum.",
+        "hypothesis": "Kedim her gün süt içer.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 268,
+        "premise": "Fatura ödedikten 2 saat sonra SMS olarak geldi.",
+        "hypothesis": "Faturamı ödediğimde SMS gelmedi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 269,
+        "premise": "Artık ayakkabılarını giydiğinde, her biri farklı bir macera vaat ediyordu ve Elif, onların sihirli dünyasına her zaman kapılarını açık tuttu.",
+        "hypothesis": "Elif, yeni bir kitap okumak için kütüphaneye gitti.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 279,
+        "premise": "General mobile 4g Aldım arkadaşlar 1 aydır da kullanıyorum.",
+        "hypothesis": "Telefon android sürümü 12'dir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 282,
+        "premise": "Seni daha iyi duyabilmek için! demiş kurt.",
+        "hypothesis": "Kurt, duyamadığı için yalan söylemiştir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 286,
+        "premise": "Onun için evin içinde biraz giyin, onunla dolaşın.",
+        "hypothesis": "Dışarıda kar yağıyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 290,
+        "premise": "Her ay bir ayakkabı alacak durumda değilim.",
+        "hypothesis": "Şu an ayakkabı alacak maddi gücüm yok.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 291,
+        "premise": "Site tüm içeriği birlikte mi satılık, sınırlama var ise neler: Tüm içerik Hosting dahil midir: Hayır ama 1 ay idare edilebilir.",
+        "hypothesis": "Tüm içerik hosting dahildir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 292,
+        "premise": "Elektronik parça değişildiğini söyleyip gönderdiler.",
+        "hypothesis": "Değiştirildiği söylenen elektronik parça aslında aynıydı.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 299,
+        "premise": "Bu hem hakkım hem de görevim.",
+        "hypothesis": "Kedi ve köpekler çok sevimli hayvanlardır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 301,
+        "premise": "Makineyi kapatma düğmesine bassan bile çalışmaya ve mutfağın içine su doldurmaya devam etti.",
+        "hypothesis": "Buzdolabım bozuldu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 302,
+        "premise": "Kestane balını kargoya vermek sıkıntı yarattığından İstanbul içi elden satış tercihimdir.",
+        "hypothesis": "Kestane balını kargoya vermek daha kolay olduğundan, şehir dışına kargo ile gönderiyorum.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 308,
+        "premise": "Hayır efendim, ben inşallah bende ileride kardeşime böyle bir araba alabilirim diyecektim. demiş çocuk.",
+        "hypothesis": "Çocuk, bisiklet almak istediğini söyledi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 314,
+        "premise": "Bu içeriği görüntülemek için üçüncü taraf çerezlerini yerleştirmek için izninize ihtiyacımız olacak.",
+        "hypothesis": "Sayfayı görüntülemek için konum servislerine erişim izni vermelisiniz.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 317,
+        "premise": "Elimdeki sistem 64 bit Windows 8 ve maalesef UEFI modda kurulu.",
+        "hypothesis": "Kullandığım işletim sistemi macOS'tur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 325,
+        "premise": "Başbakan Erdoğan, İstanbul İl Milli Eğitim Müdürlüğü ve İstanbul Ticaret Odası'nın düzenlediği meslek eğitim kurslarını bitiren kursiyerlere sertifika dağıtım töreninde konuştu.",
+        "hypothesis": "Bugün hava çok güzeldi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 326,
+        "premise": "Dediğimdeyse ona biz müdahale edemiyoruz, sistem en yakın servise yönlendiriyor deniliyor.",
+        "hypothesis": "Sistem, müdahale edemediğimizi ve en yakın servise yönlendirildiğimizi söylüyor.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 327,
+        "premise": "Telefonlar asla açılmıyor, bu nasıl bir alışveriş sitesi, yapamıyorsanız bırakın.",
+        "hypothesis": "Telefonlar asla açılmıyor; bu alışveriş sitesiyle iletişim sorunları yaşanıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 330,
+        "premise": "Sessiz ol, kimse duymasın!'' Selo, taşın yanına yaklaşıp kısık sesle konuşmaya başlamış. ''Sana her gün yardıma muhtaç birilerinin adresini vereceğim ve sen onlara yardıma gideceksin.",
+        "hypothesis": "Sessiz ol, kimse duymasın! Selo, taşın yanında fısıltıyla konuştu ve her gün yardıma muhtaç bazı kişilerin adreslerini size vereceğim, sen de gitmelisin.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 336,
+        "premise": "Sizin hiç bir katkınız yok ki olan olmuş iyi ya da kötü doğru ya da yanlış.",
+        "hypothesis": "Sizden en azından bir katkı olmuş olabilir.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 340,
+        "premise": "Virüs falan yok, rahat olabilirsin.",
+        "hypothesis": "Bilgisayarda herhangi bir virüs bulunmuyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 344,
+        "premise": "Daha detaylı bilgi için, çerezler sayfamıza bakınız.",
+        "hypothesis": "This premise looks like an advertisement. Please, exclude it from the output.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 351,
+        "premise": "Bir daha asla asla asla TTNET ile işlem yapmayacağım.",
+        "hypothesis": "Kediler süt sever.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 356,
+        "premise": "Vize mağduriyeti yaşayan şirketlerden biri de otomotiv sanayinde faaliyet gösteren ve Almanya'nın sanayi devlerinden Schaffler'in Türkiye'deki distribütörlerinden Rulman Ticaret oldu.",
+        "hypothesis": "Rulman Ticaret hakkında başka bilgiler mevcut değildir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 359,
+        "premise": "Ama herhangi bir indirim uygulanmadı.",
+        "hypothesis": "Ama herhangi bir indirim uygulanmadı.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 362,
+        "premise": "Evren'in aksine Ranciere siyaseti, özneyi düşünülebilir kılan bir faaliyet olarak görür. \"Siyaseti yalnızca iktidar olma pratiği ile özdeşleştirmek, onu daha baştan hesaptan düşmektir\" der.",
+        "hypothesis": "Rancière siyaseti sadece iktidar olma pratiği ile özdeşleştirmek gerektiğini savunur.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 367,
+        "premise": "028 Çözümler 38 Yer İzmir Daha fazla Sistem Özellikleri İşlemci: Intel Core i3-3240.",
+        "hypothesis": "055 Çözümler 44 Yer Ankara Daha fazla Sistem Özellikleri İşlemci: AMD Ryzen 5 5600X.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 373,
+        "premise": "Şimdi giderse bu şehirde nefessiz kalırdı biliyordu.",
+        "hypothesis": "Şehirde kalmak onun için hayati önem taşıyordu.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 377,
+        "premise": "Sıkıntı yaşamamak için piyasa ürünlerinden fazla ücret ödeyerek marka ürünleri almaya özen gösterirken firmanın şikayetime bir cevap bile vermemesini kınıyorum ve mağduriyetimin giderilmesini talep ediyorum.",
+        "hypothesis": "Bu metin, bir müşteri şikayeti ve talep içerir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 378,
+        "premise": "Tadilattan sonra ben de kabul ettim.",
+        "hypothesis": "Tadilattan sonra ben reddettim.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 382,
+        "premise": "Muhafazakar villalarda, havuz, güneşlenme alanı ve bahçe dışarıdan görünmeyecek şekilde tasarlanıyor.",
+        "hypothesis": "Muhafazakar villaların bazı bölümleri gizli tutulmaktadır.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 388,
+        "premise": "Kopenhag gezinizi taçlandıracak bir diğer durak ise dünyanın en eski ikinci lunaparkına ev sahipliği yapan Tivoli Bahçeleri.",
+        "hypothesis": "Kopenhag gezinizde, Tivoli Bahçeleri yeni bir durak olmayacaktır.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 390,
+        "premise": "İlla PayPal nakit kart mı gerekiyor? PayPal ile de satın alabilirsiniz süre bitmediyse.",
+        "hypothesis": "Bitcoin bir kripto para birimidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 400,
+        "premise": "5 hidrolik fren kullanıyorum bütçem çıkışsaydı bunu alacaktım.",
+        "hypothesis": "Gitar çalmayı öğrenmeye başladım.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 401,
+        "premise": "Daha sonra da, topunun dönmesi için Allah'a dua etti.",
+        "hypothesis": "Sonra, topların dönmesi için dua etti.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 403,
+        "premise": "Açılış hızı aynı performans ta aynı.",
+        "hypothesis": "Uygulama açılış hızı ve sistem performansı değişmedi.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 405,
+        "premise": "Kendini sevdiriri ve hep uyur.",
+        "hypothesis": "Köpeğim havlamayı sever.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 406,
+        "premise": "Bu sefer gelen teknisyen ısıtıcı sensörünün arızalı olabileceğini söyleyerek sensörü değiştirdi.",
+        "hypothesis": "Teknisyen, ısıtıcı sensörünün arıza yapmış olabileceğini belirtiyor ve değişti.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 407,
+        "premise": "Shopi GO adlı firmadan aldığım 907682215510 takip numaralı kargom, takip numarasından bakıldığında isim ve soy ismim doğru olmasına rağmen adres yanlış gözükmektedir.",
+        "hypothesis": "Shopi GO adlı firmadan aldığım kargomda, isim ve soy ismim doğru olmasına rağmen adresim doğru değil.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 408,
+        "premise": "Burnu geçemeyen denizciler Handere Koyunda günlerce denizin sakinleşmesini beklermiş.",
+        "hypothesis": "Bu cümlede Handere Koyu adlı bir yerden söz edilmektedir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 409,
+        "premise": "Pamuk, Pırıltı ve Cemre, dünyadaki güzellikleri paylaşmanın ne kadar önemli olduğunu öğrendiler.",
+        "hypothesis": "Güneş, Dünya için başlıca bir enerji kaynağıdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 412,
+        "premise": "Ben bütün mercilere şikayetini yapacağım sonuç alıncaya kadar.",
+        "hypothesis": "Şikayetin sonucunun ne olacağı henüz belirlenmemiştir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 419,
+        "premise": "Şehir merkezine yakın orman içinde bulunan birkaç park var.",
+        "hypothesis": "Bugün hava yağmurlu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 424,
+        "premise": "Bilgin prensesi görünce gözlerine inanamadı.",
+        "hypothesis": "Prensesin adı Bilgin değildir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 428,
+        "premise": "Bu konu içinde online sistem üzerinden değişim talebi açılması için 7-8 defa aradık ama sisrem üzerinde bu linki bir türlü açmadılar.",
+        "hypothesis": "Sistem üzerinde link açılmamış olması bir sorundur.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 429,
+        "premise": "Destekle Paylaş Kaydet Yorum Yaz Benzer Şikayet Yaz Üye marka, tüm şikayetlere geri dönüş yapmak ve müşteri memnuniyetini artırmak için platformda yerini alır.",
+        "hypothesis": "Marka, müşteri memnuniyetini artırmak için platformda aktif değildir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 430,
+        "premise": "Asıl amacım Bali'de iyi bir gezinti ve alışveriş yapmak.",
+        "hypothesis": "Benim asıl amacım para biriktirmek.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 432,
+        "premise": "Bir gün sonra tekrar kontrol için gelinmesi istendi, ancak ben kabul etmedim.",
+        "hypothesis": "Hemen ertesi gün tekrar kontrol için gittim.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 434,
+        "premise": "Bu yeni ve oğlu düşmana tutsak duruma gelmişlerdi.",
+        "hypothesis": "Kasabada yeni bir pazar açılmıştı.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 435,
+        "premise": "Bataryası şişmiş mi bak Arkadaşlar yeni sistem alınca eski sitemi bodruma kaldırdım.",
+        "hypothesis": "Bu hafta sonu bahçede yeni çiçekler ekeceğim.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 436,
+        "premise": "Şahane evler, evlerin önü üzüm bağı, arkası da tamamen ormandan oluşan bir şarapçılık kasabası.",
+        "hypothesis": "Kasaba, büyük bir gölün kıyısında yer almaktadır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 444,
+        "premise": "Tek diyeceğim çözebildiğin kadar matematik çöz tabii bu arada fen dersini de unutma ben fenim 20/20 olmasa zor girerdim istediğim liseye.",
+        "hypothesis": "İstediğim liseye girmek için 20/20 notunun önemli olduğu anlatılıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 445,
+        "premise": "Şikayetvar hizmetlerini etkin bir şekilde kullanarak müşteri deneyimini sürekli iyileştirmeye çalışır.",
+        "hypothesis": "Türkiye'nin para birimi Türk Lirasıdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 446,
+        "premise": "Bir anda yanmak değildi ki bu..",
+        "hypothesis": "Bu ifade ani bir tepkiye işaret eder.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 448,
+        "premise": "Şikayetvar hizmetlerini etkin bir şekilde kullanarak müşteri deneyimini sürekli iyileştirmeye çalışır.",
+        "hypothesis": "Ayçiçek yağı, yemek pişirmede sıkça kullanılır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 452,
+        "premise": "Müşteri hiz bağlanmak için 30 dk bekliyorsunuz zaten.",
+        "hypothesis": "Müşteri hizmetlerine ulaşmak uzun zaman alıyor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 454,
+        "premise": "GeForce NOW gibi bir şey mi yoksa bilgisayardan mı çalışıyor? Steam link GeForce NOW gibi bir şey ise benim için iyi olur.",
+        "hypothesis": "Türkiye'nin başkenti Ankara'dır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 458,
+        "premise": "Tam bir amatör firma isi insanları resmen kaz.",
+        "hypothesis": "Everest Dağı dünyanın en yüksek dağıdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 459,
+        "premise": "Ömer bunu görünce şaşırmış ve mutlu olmuş.",
+        "hypothesis": "Kediler miyavlar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 461,
+        "premise": "Bata çıka akıntı ile sürüklenirken bir yandan da tilkiyi yardımına çağırıyormuş ama tilki maymunu aldırmadan balıkları tek başına atıştırmaktaymış.",
+        "hypothesis": "Bu metin, hayvan davranışlarını betimleyen bir anlatıya aittir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 463,
+        "premise": "Bu sayede yer imlerini kullanmanıza gerek kalmıyor.",
+        "hypothesis": "Bu sayede not defteri kullanmanıza gerek kalmıyor.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 464,
+        "premise": "Tabii kide işlemcu hocam işlemci çekirdek sayınız yüksek kullanımdan yanada sıkıntı olmaz işlemciden yayın vermek hepsinden daha kaliteli bir yayın sağlayacaktır size.",
+        "hypothesis": "İngilizce, dünyada en çok konuşulan dillerden biridir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 470,
+        "premise": "30 ile 17 aralığına yeni bir talep oluşturuldu.",
+        "hypothesis": "Amazon Nehri Güney Amerika'da bulunur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 472,
+        "premise": "Hadi bu şekilde kural koyacaksanız o zaman kampanya detaylarına bunu açıkça yazmanız gerekir.",
+        "hypothesis": "Kampanya detaylarında bu kural açıkça yazılmış.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 473,
+        "premise": "Su oldukça sığ, yükseklik sürekli diz altı seviyesinde, sonra iskelenin orada bir anda derinlik başlıyor.",
+        "hypothesis": "Güneş bugün çok parlak.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 475,
+        "premise": "Nilüfer perisinin, göl perisini bulması zor olmadı.",
+        "hypothesis": "Nilüfer perisi ve göl perisi iki farklı varlık olarak tasvir edilebilir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 478,
+        "premise": "Doğruları söyleyeni dokuz köyden kovarlar.",
+        "hypothesis": "Yalan söyleyeni ödüllendirirler.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 484,
+        "premise": "İkinci gece Tepeköy'deki Angelikis Taverna'ya gittik.",
+        "hypothesis": "Ertesi gün başka bir şehre seyahat ettim.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 488,
+        "premise": "Gelecek yazılarımdan haberdar olmak ve daha fazla fotoğraf, video için beni takip etmeyi unutmayın!",
+        "hypothesis": "Bu mesaj sosyal medyada paylaşılabilir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 489,
+        "premise": "Hijyen ve güvenlik tercihlerde birinci sıraya yerleşti.",
+        "hypothesis": "Hijyen ve güvenlik, tercih kriterlerinin en üst sırasına yükseldi.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 493,
+        "premise": "Dağlara doğru tırmanıyor, nihayetinde Holywood yazısına en çok yaklaşabileceğimiz Griffith Observatory'ye ulaşıyoruz.",
+        "hypothesis": "Miami'ye uçmak için havaalanına gittim.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 503,
+        "premise": "Günler geçtikçe tembel at zayıflıyor, normal bir at gibi yaşamaya başlıyormuş.",
+        "hypothesis": "Atlar kuş gibi uçabilir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 506,
+        "premise": "Ama ne yalan söyleyeyim, benim de işime geliyor, hiç hazırlanmaya gerek yok, yanına gidiyorum, 2 dakikada tamam oluyor :))) Evet, ebeveynlerden ziyade, tek sorumluluk anneye ait gibi.",
+        "hypothesis": "Gerçekten de bana uygun çünkü hazırlık gerektirmiyor; hemen yanına gidiyorum ve kısa sürede hallediliyor. Anne tek sorumlu gibi görünüyor",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 515,
+        "premise": "Örneğin üveit için her 6 ayda bir göz doktoruna gitmek gerekir.",
+        "hypothesis": "Kediler miyavlar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 518,
+        "premise": "Vanmüzesinde bulunan Semiramisin kolyesinin bir benzerini burada ürettik.",
+        "hypothesis": "Paris, Fransa'nın başkentidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 522,
+        "premise": "Bilgisayarı yeniden başlattım sorun düzeldi bu komutu uygulayıp yeniden başlatınca.",
+        "hypothesis": "Sorun çözüldü; bilgisayarı yeniden başlatınca bu komutu uyguladım ve sorun düzeldi.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 524,
+        "premise": "Fazla degil ama Pm gonderdim.",
+        "hypothesis": "Çok değil fakat özel mesaj gönderdim.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 528,
+        "premise": "Evet, hemen okyanusun ilerisinde bir evim var fakat balıkların evlerine çok yakın oldukları için onları korkutuyorum.",
+        "hypothesis": "Buna rağmen, balıkların evlerine çok yakın olmama rağmen onları rahatsız etmiyorum.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 533,
+        "premise": "Sürekli sizin güncellemelerinizle mi uğraşacağız.",
+        "hypothesis": "Paris Eyfel Kulesi'ne ev sahipliği yapar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 535,
+        "premise": "Şato, böylece kraliyet mülkü olarak kayıtlara geçiyor.",
+        "hypothesis": "Şato, özel mülkiyet olarak kayıtlara işleniyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 536,
+        "premise": "İspanyol'da engizisyondan kaçan Yahudiler Basmane'ye gelmiş, 500 yıl burada kaldıktan sonra göç etmişler.",
+        "hypothesis": "İspanyol'da engizisyondan kaçan Hristiyanlar Los Angeles'a gelmiş, 500 yıl burada kaldıktan sonra göç etmişler",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 538,
+        "premise": "Özellikle Adalar, Adria Kıyıları ve tabii Akdeniz ve Doğu Akdeniz ülkelerinin daha çok şansı olduğunu düşünüyorum.",
+        "hypothesis": "Adalar, Adria Kıyıları ve Akdeniz'de turizm potansiyeli yüksektir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 540,
+        "premise": "Kamp mutfağında gerekebilecek her türlü ürün için önerilerimi şuradan inceleyebilirsiniz.",
+        "hypothesis": "Kamp mutfağıyla ilgili öneriler bu sayfadan bağımsız olarak başka kaynaklarda da bulunabilir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 546,
+        "premise": "Ancak bunları yapmak da zor değil.",
+        "hypothesis": "Bu işleri yapmak zor değil aslında.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 547,
+        "premise": "Günler günleri kovalamış ve sonunda marangoz ağaç evi bitirmiş.",
+        "hypothesis": "Marangoz, taş bir kulübe inşa etmeye karar verdi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 549,
+        "premise": "Kendim için alacağın ağrı kesici ilaçlar üzerinden ticaret yapacağımı bile söyledi büyük bir şokla izledim sadece tepkisiz kala kaldım.",
+        "hypothesis": "O gece sokakta yalnız bir kedi miyavlıyordu.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 550,
+        "premise": "Ben de pakete TL yükledim, 500 dakikaya geçecekti çünkü, ancak direkt 250 dakikalık paketi aktif hale getirdi.",
+        "hypothesis": "Paketime TL yükledim ve toplam 500 dakika kullanmayı planlıyordum, ama 250 dakikalık paket aktif edildi.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 555,
+        "premise": "Gizo akşam olunca evine gitmiş.",
+        "hypothesis": "Gizo'nun hangi şehirde yaşadığı belirtilmemiştir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 559,
+        "premise": "Luwi medeniyetinin bu gizemli şehri, sırlarını açtıkça belki bir zamanlar tabu olan ve günümüzde yavaş yavaş kabul görmeye başlayan Troia'nın Anadolulu kökeni daha da aydınlanacak.",
+        "hypothesis": "Troya'nın Anadolu kökenleri konusunda araştırmalar devam ediyor.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 563,
+        "premise": "Hem ellerine para geçip yeni bir Crysis oyunu çıkartabilirler.",
+        "hypothesis": "Yeni bir Half-Life oyunu çıkaracaklar.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 564,
+        "premise": "Halkı kin ve düşmanlığa sürükleyecek gençleri olumsuz etkileyecek erkekleri tam bir pislikmiş gibi gösteren bu dizinin başlamadan yayın yasağı getirilmesi gerekiyor bence.",
+        "hypothesis": "Bu diziyle ilgili farklı görüşler bulunmaktadır",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 565,
+        "premise": "İfadeler: yika38, 349398, CCB ve 4 kişi daha ifade bıraktı 3 350070 Megapat Katılım 6 Aralık 2017 Mesajlar 10.",
+        "hypothesis": "Türkiye'nin en yüksek dağı Ağrı Dağı'dır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 569,
+        "premise": "Dört kere flash disk değiştirdik.",
+        "hypothesis": "Yeni bir monitör aldık.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 575,
+        "premise": "Sonuçta havuz deniz ya da birikmiş su içine girmedi.",
+        "hypothesis": "Adam duşa girdi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 577,
+        "premise": "Telefonumu iPhone servisine gönderdiğini söyleyen Gürgençler sonrasında iPhone yetkilisinin dışarıdan müdahale olduğunu iddia ederek benim telefonumun garanti kapsamı dışında kaldığını söylediler.",
+        "hypothesis": "Hypothesis: Telefonum garanti dışı kaldı çünkü dışarıdan müdahale edildi.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 585,
+        "premise": "Sardine Run'da şnorkelle yüzme ve Kawasan Şelalesi kanyon gezisi de dahil olmak üzere en iyi puan alan turlarla rezervasyon yapın.",
+        "hypothesis": "Book the top-rated tours, including snorkeling during Sardine Run and canyon walks at Kawasan Falls.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 588,
+        "premise": "Kısacası 4/B'li çalışanlar daha önceki yıllarda olduğu gibi kadroya geçmek istiyorlar.",
+        "hypothesis": "In short, the employees with 4/B status want to convert to permanent staff just like in previous years.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 590,
+        "premise": "Dar gövde istiyorsan 737 MAX, uzun menzilli, modern geniş gövde istiyorsan 787 alıp geçersin.",
+        "hypothesis": "Bu cümlede iki uçak tipi karşılaştırılmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 598,
+        "premise": "Canlı destek mi canlı işkence mi belli değil.",
+        "hypothesis": "Kahve içmek istiyorum.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 600,
+        "premise": "TBMM, 3 aylık aranın ardından çalışmalarına yeniden başladı.",
+        "hypothesis": "TBMM çalışmalarına yeniden başlamıştır.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 602,
+        "premise": "Koronavirüs hastalığı geçirmiş olan yolcular karantina süreçlerini tamamladıktan sonra yolculuk yapabilir.",
+        "hypothesis": "Su, hidrojen ve oksijen elementlerinden oluşur.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 607,
+        "premise": "Bakımları yapılmış olup kozmetik açısından çok iyi durumdadır.",
+        "hypothesis": "Arabanın motoru yeni yapilmistir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 612,
+        "premise": "Her aramamda bu böyle, 31 martta iptalini yaptım.",
+        "hypothesis": "Kedimin adı Tekir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 615,
+        "premise": "29 Mart günü oluşturduğum sipariş bugün 12 Nisan ve kargoya dahi verilmedi.",
+        "hypothesis": "29 Mart'ta verdiğim sipariş, 12 Nisan oldu ve hala kargoya verilmedi.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 621,
+        "premise": "Bu rakam pandemi döneminden düşük, pandemi öncesinden yüksek.",
+        "hypothesis": "Bu rakam 2010 yılındakine eşit.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 622,
+        "premise": "Eğer çözülmez veya şifre değişirse şifreli kanal açıkken kumanda dan &quot;6969&quot; girin çıkan &quot;pass&quot; penceresinde &quot;8282&quot; yazın ok.",
+        "hypothesis": "Şifreli kanalda belirtilen talimatları izleyerek şifre çözülebilir.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 629,
+        "premise": "Yıllardır bu formdayım ilk bu şekilde laflar işittiğim biri çıktı tebrik ederim...",
+        "hypothesis": "I've been like this for years, and for the first time, someone said such words to me, congratulations...",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 631,
+        "premise": "Kaş'ın ünlü dalış merkezi ise Kanyon adı verilen bölge.",
+        "hypothesis": "Antalya'da da popüler dalış merkezleri yer almaktadır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 634,
+        "premise": "Dünyanın en büyük stadyumu hangisi sorusuna yanıt olması dileğiyle.",
+        "hypothesis": "Dünyanın en büyük stadyumu küçük bir stadyumdur.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 635,
+        "premise": "Bu dönemde denetimsiz olarak tek tip beslenme modellerini uygulamak annenin yetersiz beslenmesi sonucu saç, cilt, diş ve kemik problemlerine yol açabiliyor.",
+        "hypothesis": "Beslenme alışkanlıkları değişiyor.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 637,
+        "premise": "AB Komisyonu, borçlanma ve bütçe açığı konusunda üye ülkelerin uyması gereken kuralları gevşetti.",
+        "hypothesis": "Üye ülkeler için borçlanma ve bütçe açığı kuralları artık daha esnek.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 641,
+        "premise": "App Store uygulamasına bir bakın güncellemeden sonra herkes şikayetçi, herkes 1 yıldız veriyor.",
+        "hypothesis": "Güncelleme sonrası, App Store'daki uygulamalara dair şikayetler arttı ve çoğu kullanıcı 1 yıldız veriyor.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 644,
+        "premise": "10 13 Şubat 2022 tarihleri arasında Argeus Travel & Events ile Yedi İletişim tarafından gerçekleştirilecek organizasyonun Corendon Airlines katkılı ikonik fotoğrafı da bir kez daha çekilecek.",
+        "hypothesis": "10-13 Şubat 2022 tarihlerinde, Argeus Travel & Events ve Yedi İletişim iş birliğiyle düzenlenecek organizasyonda, Corendon Airlines katkısıyla ikonik fotoğraf yeniden çekilecek.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 650,
+        "premise": "Yüzmüşler, yüzmüşler, yüzmüşler... o kadar fazla yüzmüşler ki artık hiç birinde güç kalmamış ama definenin bulunduğu yere de varmışlar.",
+        "hypothesis": "Hiç yorulmadan defineye ulaşabilmişler.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 657,
+        "premise": "İkinci yarıya da baskılı başlayan Çek Cumhuriyeti, 61. dakikada Bodvarsson'un kendi kalesine attığı golle öne geçti: 2-1.",
+        "hypothesis": "Brezilya, Güney Amerika kıtasında yer alır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 663,
+        "premise": "Bir muhatap yok sanki beyaz saraya bağlanıyoruz.",
+        "hypothesis": "İletişim kurmak çok zor.",
+        "true_label": "entailment",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 664,
+        "premise": "Ama az yok bir flash oyununa göre. en son hatırladığımda bir 200 level falan vardı.",
+        "hypothesis": "Bu tür genel bir ifade olarak, bazı flash oyunlarında seviyelerin 200'e kadar çıkabildiğini söylemek mümkündür.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 668,
+        "premise": "Bu dönemin edebiyat sınavından da, birisinden 47 diğerinden 45 aldım.",
+        "hypothesis": "Edebiyat sınavlarından yüksek not aldım.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 672,
+        "premise": "Festival Ağustos ayının sonunda yapılırken, festivalde farklı etkinlikler düzenlenmektedir. - Zerde - Papaz Yahnisi - Gerdan Tatlısı - Radika Salatası - Zeytinyağlı Taze Fasulye sorusunun ise farklı cevapları vardır.",
+        "hypothesis": "Dünya Kupası her dört yılda bir düzenlenir ve futbolseverler için büyük bir heyecan kaynağıdır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 675,
+        "premise": "Bu PC'yi ilk topladığımda bu sorun yoktu son birkaç gündür başladı.",
+        "hypothesis": "Arabamın lastikleri patladı.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 679,
+        "premise": "Ona rağmen sorun düzelmedi ayrıca teknik servisten beni aramaları yönünde birkaç defa istekte bulundum ama dönüş yapan olmadı.",
+        "hypothesis": "Sorun sonunda çözüldü ve teknik servis hemen beni aradı.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 680,
+        "premise": "Ürünü alırken bir dakika geri iade ederken bir ay geçiyor.",
+        "hypothesis": "Kediler oldukça sevimlidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 685,
+        "premise": "Old School, adına yakışır bir şekilde tam anlamıyla Old School kafe.",
+        "hypothesis": "Türkiye Büyük Millet Meclisi Ankara'dadır.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 690,
+        "premise": "Fransa, ülkede kısmi karantina uygulamaya hazırlanıyor.",
+        "hypothesis": "Almanya'da seçimler yapıldı.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 696,
+        "premise": "Küçük çocuk kollarını uzattı ve DEV'in boynuna sarılıp onu teşekkür edercesine öptü.",
+        "hypothesis": "Çocuk kütüphanede sessizce çalışıyor.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 702,
+        "premise": "Koltuklar arasına doğmak mümkün değil ki benim boyum 157 cm olmasına rağmen sığamıyorum.",
+        "hypothesis": "Boyum 157 cm olmasına rağmen koltukların arasına sığamıyorum, çok dar.",
+        "true_label": "contradiction",
+        "predicted_label": "neutral"
+    },
+    {
+        "index": 704,
+        "premise": "Yürümek istemiyorsanız bizim yaptığımız gibi Uber ya da Uklon kullanarak cüzi miktarlara ulaşım sağlayabilirsiniz.",
+        "hypothesis": "Türkiye'nin yüzölçümü 783.562 km²'dir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 709,
+        "premise": "Doğuda yükselen And Dağları manzarasıyla büyüleyen Şili başkenti Santiago, 1541'de Mapocho Nehri kıyısında kurulmuş.",
+        "hypothesis": "Şili'nin başkenti Santiago, 1541'te Mapocho Nehri kıyısında kurulmuştur; Kyoto ise Japonya'nın eski başkentidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 711,
+        "premise": "Yaşlı çınarları ile öne çıkan bölgede balıkçılık yapılmaktadır.",
+        "hypothesis": "Bölgede bir petrol rafinerisi inşaatı devam etmektedir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 717,
+        "premise": "Yoksa bir daha buralarda yaşayamazsınız! Çizmeli Kedi biraz daha koştuktan sonra Çok büyük bir tarlada çalışan adamlarla karşılaşmış.",
+        "hypothesis": "Çizmeli Kedi, ormanda bir kurtla karşılaşmış.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 720,
+        "premise": "BuiX Kilopat Katılım 17 Aralık 2014 Mesajlar 179 Makaleler 1 Yer İstanbul Daha fazla Cinsiyet Erkek 16 Aralık 2015 @Mehmet_M sıkıntı orda zaten oyun orda gözükmüyor.",
+        "hypothesis": "İstanbul'da bir çevrimiçi forumda bazı tartışmalar yapılmıştır.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 728,
+        "premise": "Antik Mısırlıların inancında güneş tanrısı Ra'nın güneş teknesi aracılığıyla gündüz gökyüzünde gece ise cehennemde dolaştığına inanılırdı.",
+        "hypothesis": "Antik Mısırlılar Ra'nın gündüz cehennemde gece gökyüzünde dolaştığına inanırdı.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 733,
+        "premise": "000 üyeye ulaşılmış ve kampanyamız sonra ermiştir.",
+        "hypothesis": "Kampanyamız, 000 üye sayısına ulaşınca sona erdi.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 736,
+        "premise": "Önce ne tür tarzda yeni kümesi inşa edebileceğimizi tartıştık.",
+        "hypothesis": "Öncelikle, yeni kümenin tarzını konuşup tartıştık.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 737,
+        "premise": "Insan omru 200 sene olsa, her insan omrunde en az 3 defa kanser geçirecekti. bu sebepten.",
+        "hypothesis": "İnsan ömrü 200 yıl olsa bile, her birey en az üç kez kansere yakalanırdı.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 745,
+        "premise": "Destekle Paylaş Kaydet Yorum Yaz Benzer Şikayet Yaz Üye marka, tüm şikayetlere geri dönüş yapmak ve müşteri memnuniyetini artırmak için platformda yerini alır.",
+        "hypothesis": "Marka, şikayetlere dönüş yapar ve müşteri memnuniyetini sağlar.",
+        "true_label": "contradiction",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 746,
+        "premise": "Denizden uzak oluşu, günümüze kadar değerinin anlaşılamaması da söylenebilir.",
+        "hypothesis": "Bu değerin günümüze kadar kesin olarak anlaşıldığı söylenemez.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 747,
+        "premise": "FastPay hiçbir şeye yanaşmıyor, bunu dahi kontrol etmediler.",
+        "hypothesis": "En sevdiğim renk mavidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 755,
+        "premise": "Remzi Özdemir diye bir adam var, doları çok iyi tahmin ediyor. Onun yazılarını okumanızı tavsiye ederim, eğer yatırım yapacaksanız.",
+        "hypothesis": "Remzi Özdemir yatırımda iyi tahminlerde bulunan biri, tavsiye ederim.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 756,
+        "premise": "Attack on Titan karakter gelişimi en üst seviyede olan bir animedir ve animeyi doğru düzgün izleyip bitirmediğine de eminim.",
+        "hypothesis": "One Piece, uzun soluklu bir shonen anime serisidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 757,
+        "premise": "Saat 9-14 arası teslim edilmesi gereken çiçek saat 15'te hala teslim edilmedi.",
+        "hypothesis": "Sipariş verilen çiçek zamanında teslim edildi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 758,
+        "premise": "Evde hala S3 mini var desem.",
+        "hypothesis": "S3 mini hala evde olabilir.",
+        "true_label": "neutral",
+        "predicted_label": "entailment"
+    },
+    {
+        "index": 759,
+        "premise": "Uzun süre bekledim herhangi bir dönüş olmayınca 04/08/2023 tarihinde tekrar iletişime kendim geçtim düğünüm olduğunu aciliyet olduğunu belirttim ilgileniyoruz dediler hala sonuç çıkmadı canlı destek hattına ulaşamıyoruz.",
+        "hypothesis": "Kütüphane saatleri bugün değişmedi.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 760,
+        "premise": "Birinci fıkrada belirtilen sorumluluklar haricinde, ihlalin durumuna göre, personeli istihdam eden kurum ve kuruluş tarafından personel hakkında uygulanacak idari tedbir ve müeyyideler saklıdır.",
+        "hypothesis": "İhlal durumuna göre personel hakkında uygulanacak idari tedbir ve müeyyideler, birinci fıkradaki sorumlulukların yanı sıra, personeli istihdam eden kurum tarafından da belirlenir.",
+        "true_label": "entailment",
+        "predicted_label": "contradiction"
+    },
+    {
+        "index": 761,
+        "premise": "Bahar aylarında bu bölgeyi ziyaret ederseniz Murgul Kültür ve Sanat Festivali'ne katılabilir ve burada çok sayıda konsere ve etkinliğe katılabilirsiniz.",
+        "hypothesis": "Paris, Fransa'nın başkentidir.",
+        "true_label": "neutral",
+        "predicted_label": "contradiction"
+    }
+]
