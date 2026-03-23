@@ -20,18 +20,18 @@ st.sidebar.header("📊 Model Configuration")
 # Ensemble weights configurations
 ensemble_configs = {
     "Ensemble 1 (Balanced)": {
-        "qwen":     0.40,
-        "gemma":    0.20,
-        "mdeberta": 0.10,
-        "bert":     0.30,
+        "qwen":     0.25,
+        "gemma":    0.25,
+        "mdeberta": 0.25,
+        "bert":     0.25,
     },
     "Ensemble 2 (Optimized)": {
-        "gemma":    0.30,
-        "qwen":     0.50,
-        "mdeberta": 0.15,
-        "bert":     0.05,
+        "gemma":    0.26,
+        "qwen":     0.37,
+        "mdeberta": 0.12,
+        "bert":     0.25,
     },
-    "Ensemble 3 (Current)": {
+    "Ensemble 3 (First)": {
         "gemma":    0.30,
         "qwen":     0.45,
         "mdeberta": 0.15,
@@ -69,6 +69,13 @@ if 'selected_models' not in st.session_state:
 
 if 'selected_ensembles' not in st.session_state:
     st.session_state.selected_ensembles = list(ensemble_configs.keys())
+
+# Cache for predictions to reuse across runs
+if 'cached_predictions' not in st.session_state:
+    st.session_state.cached_predictions = {}
+
+if 'cached_probabilities' not in st.session_state:
+    st.session_state.cached_probabilities = {}
 
 st.sidebar.subheader("📋 Base Models")
 selected_models = []
@@ -173,9 +180,17 @@ if run_inference and premise.strip() and hypothesis.strip():
             # For Turkish models, we'll use zero-shot classification
             candidate_labels = ["entailment", "contradiction", "neutral"]
             
-            # Dictionary to store predictions
-            predictions = {}
-            probabilities = {}
+            # Start with cached predictions
+            predictions = dict(st.session_state.cached_predictions)
+            probabilities = dict(st.session_state.cached_probabilities)
+            
+            # Figure out which models still need to run
+            models_still_needed = [m for m in models_to_run if m not in predictions]
+            
+            if models_still_needed:
+                st.info(f"⚡ Using cached predictions for {len(predictions)} model(s), running {len(models_still_needed)} new model(s)...")
+            else:
+                st.info("⚡ Using all cached predictions - no new models to run!")
             
             # Map display names to model IDs
             model_id_map = {
@@ -185,8 +200,8 @@ if run_inference and premise.strip() and hypothesis.strip():
                 "Gemma3 27B": "google/gemma-3-27b-it",
             }
             
-            # Filter to only models that need to run
-            model_list = [(name, model_id_map[name]) for name in models_to_run]
+            # Filter to only models that still need to run
+            model_list = [(name, model_id_map[name]) for name in models_still_needed]
             
             progress_bar = st.progress(0)
             status_text = st.empty()
@@ -208,12 +223,16 @@ if run_inference and premise.strip() and hypothesis.strip():
                             multi_class=False
                         )
                         
-                        # Store prediction
+                        # Store prediction (both in memory and session state cache)
                         pred_label = result["labels"][0]
                         scores = {label: score for label, score in zip(result["labels"], result["scores"])}
                         
                         predictions[model_name] = pred_label
                         probabilities[model_name] = scores
+                        
+                        # Cache for future runs
+                        st.session_state.cached_predictions[model_name] = pred_label
+                        st.session_state.cached_probabilities[model_name] = scores
                         
                 except Exception as e:
                     st.warning(f"⚠️ Error with {model_name}: {str(e)}")
