@@ -142,6 +142,39 @@ col1, col2 = st.columns([1, 1], gap="large")
 
 with col1:
     st.subheader("📝 Input")
+    
+    # Preset examples
+    preset_examples = {
+        "Example 1 - Journey Duration": {
+            "premise": "Sabah aracımızla yola çıktık, yolculuğumuz yaklaşık 2 saat sürdü.",
+            "hypothesis": "Sabah aracımızla yola çıktık, yolculuğumuz 2 saatten daha uzun sürdü."
+        },
+        "Example 2 - Turkey's Capital": {
+            "premise": "Türkiye'nin başkenti Ankaradır.",
+            "hypothesis": "İstanbul Türkiye'nin başkentidir."
+        },
+        "Example 3 - Magyar Balazs": {
+            "premise": "Magyar Balazs komutasında 600 kişilik bir kuvveti, başka bir söylentiye göre de 2.",
+            "hypothesis": "Magyar Balazs'ın komutasındaki kuvvetin büyüklüğü tartışmalıdır."
+        },
+        "Example 4 - Tea Break": {
+            "premise": "Çok geçmeden önlerine geniş bir çay çıkmış.",
+            "hypothesis": "Yolculuk sırasında bir mola vererek kahvelerini yudumladılar."
+        }
+    }
+    
+    # Selectbox to load preset examples
+    selected_preset = st.selectbox(
+        "📚 Load Preset Example (optional):",
+        options=["--- Custom Input ---"] + list(preset_examples.keys()),
+        key="preset_selector"
+    )
+    
+    # Load preset if selected
+    if selected_preset != "--- Custom Input ---" and selected_preset in preset_examples:
+        st.session_state.premise = preset_examples[selected_preset]["premise"]
+        st.session_state.hypothesis = preset_examples[selected_preset]["hypothesis"]
+    
     premise = st.text_area(
         "**Premise:**",
         placeholder="Enter the premise here...",
@@ -266,7 +299,7 @@ if run_inference and premise.strip() and hypothesis.strip():
             # ====== TAB 1: Base Models ======
             if "Base Models" in tab_dict:
                 with tab_dict["Base Models"]:
-                    st.subheader("🤖 Base Model Predictions")
+                    st.subheader("Base Model Predictions")
                     
                     results_cols = st.columns(2)
                     
