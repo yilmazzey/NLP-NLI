@@ -1,0 +1,37 @@
+Model,Subset,Class,F1
+BERT,9008,Entailment,0.830902885510394
+BERT,BERT hard,Entailment,0.0
+BERT,9008,Neutral,0.6543597800471328
+BERT,BERT hard,Neutral,0.0
+BERT,9008,Contradiction,0.7449830194504476
+BERT,BERT hard,Contradiction,0.0
+mDeBERTa,9008,Entailment,0.8260869565217391
+mDeBERTa,BERT hard,Entailment,0.30851063829787234
+mDeBERTa,9008,Neutral,0.7508506616257089
+mDeBERTa,BERT hard,Neutral,0.5410628019323671
+mDeBERTa,9008,Contradiction,0.8034875922199866
+mDeBERTa,BERT hard,Contradiction,0.1414141414141414
+Gemma,9008,Entailment,0.8163495419309372
+Gemma,BERT hard,Entailment,0.20930232558139536
+Gemma,9008,Neutral,0.7635109237255654
+Gemma,BERT hard,Neutral,0.8083067092651757
+Gemma,9008,Contradiction,0.855339295107838
+Gemma,BERT hard,Contradiction,0.13636363636363635
+Qwen,9008,Entailment,0.8263344100907553
+Qwen,BERT hard,Entailment,0.4311377245508982
+Qwen,9008,Neutral,0.8013052936910805
+Qwen,BERT hard,Neutral,0.6901098901098901
+Qwen,9008,Contradiction,0.8261376896149358
+Qwen,BERT hard,Contradiction,0.29213483146067415
+Best Grid Ensemble,9008,Entailment,0.8503937007874016
+Best Grid Ensemble,BERT hard,Entailment,0.21656050955414013
+Best Grid Ensemble,9008,Neutral,0.8160412067696836
+Best Grid Ensemble,BERT hard,Neutral,0.6391752577319587
+Best Grid Ensemble,9008,Contradiction,0.8527953496324158
+Best Grid Ensemble,BERT hard,Contradiction,0.08860759493670886
+Best Class-Routed Ensemble,9008,Entailment,0.8298562818729717
+Best Class-Routed Ensemble,BERT hard,Entailment,0.21951219512195122
+Best Class-Routed Ensemble,9008,Neutral,0.8279944289693594
+Best Class-Routed Ensemble,BERT hard,Neutral,0.8214849921011058
+Best Class-Routed Ensemble,9008,Contradiction,0.8381313566626444
+Best Class-Routed Ensemble,BERT hard,Contradiction,0.1411764705882353

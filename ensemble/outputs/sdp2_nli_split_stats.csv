@@ -1,0 +1,12 @@
+config,split,num_rows,entailment,neutral,contradiction,label_total
+snli_tr_1_1,train,548487,182772,182646,183069,548487
+snli_tr_1_1,validation,9836,3324,3234,3278,9836
+snli_tr_1_1,test,9824,3368,3219,3237,9824
+multinli_tr_1_1,train,392599,130829,130895,130875,392599
+multinli_tr_1_1,validation_matched,9809,3475,3123,3211,9809
+multinli_tr_1_1,validation_mismatched,9825,3456,3129,3240,9825
+trglue_mnli,train,162788,54587,54475,53726,162788
+trglue_mnli,validation_matched,9050,2988,3100,2962,9050
+trglue_mnli,validation_mismatched,9200,3072,3079,3049,9200
+trglue_mnli,test_matched,9008,2924,3138,2946,9008
+trglue_mnli,test_mismatched,9217,3101,3043,3073,9217
