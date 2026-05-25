@@ -1,0 +1,2 @@
+Embedder,Model,XGB_Avg_Accuracy,LGB_Avg_Accuracy,XGB_Avg_F1,LGB_Avg_F1,OOD_XGB_Delta,OOD_LGB_Delta,Adversarial_Examples
+tr_embedding,trmteb/turkish-embedding-model,0.6673033299119362,0.66926625818502,0.6659435180579459,0.6680271116683363,-0.040426111383461305,-0.036881667717160505,124

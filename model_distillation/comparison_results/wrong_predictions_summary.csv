@@ -1,0 +1,5 @@
+Model,Split,Total Wrong,Unique Wrong,Unique %
+BERT,test_matched,2251,863,38.3%
+mDeBERTa,test_matched,1832,444,24.2%
+BERT,test_mismatched,1720,712,41.4%
+mDeBERTa,test_mismatched,1447,439,30.3%

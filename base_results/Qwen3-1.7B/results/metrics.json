@@ -1,0 +1,53 @@
+{
+  "snli_tr_1_1": {
+    "test": {
+      "accuracy": 0.3276669381107492,
+      "f1_macro": 0.16453269953231617,
+      "f1_per_class": {
+        "entailment": 0.0,
+        "neutral": 0.49359809859694853,
+        "contradiction": 0.0
+      }
+    }
+  },
+  "multinli_tr_1_1": {
+    "validation_matched": {
+      "accuracy": 0.31838107860128456,
+      "f1_macro": 0.1609959789669038,
+      "f1_per_class": {
+        "entailment": 0.0,
+        "neutral": 0.4829879369007114,
+        "contradiction": 0.0
+      }
+    },
+    "validation_mismatched": {
+      "accuracy": 0.3184732824427481,
+      "f1_macro": 0.1610313416705265,
+      "f1_per_class": {
+        "entailment": 0.0,
+        "neutral": 0.48309402501157944,
+        "contradiction": 0.0
+      }
+    }
+  },
+  "trglue_mnli": {
+    "test_matched": {
+      "accuracy": 0.3483570159857904,
+      "f1_macro": 0.1722377737526758,
+      "f1_per_class": {
+        "entailment": 0.0,
+        "neutral": 0.5167133212580274,
+        "contradiction": 0.0
+      }
+    },
+    "test_mismatched": {
+      "accuracy": 0.33015080828903115,
+      "f1_macro": 0.16547036432843937,
+      "f1_per_class": {
+        "entailment": 0.0,
+        "neutral": 0.4964110929853181,
+        "contradiction": 0.0
+      }
+    }
+  }
+}

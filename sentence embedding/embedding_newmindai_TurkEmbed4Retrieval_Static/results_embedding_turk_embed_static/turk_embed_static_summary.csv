@@ -1,0 +1,2 @@
+Embedder,Model,XGB_Avg_Accuracy,LGB_Avg_Accuracy,XGB_Avg_F1,LGB_Avg_F1,OOD_XGB_Delta,OOD_LGB_Delta,Adversarial_Examples
+turk_embed_static,newmindai/TurkEmbed4Retrieval-Static,0.59394064507043,0.5926064695485747,0.5904446119366655,0.5893721369736977,-0.03999035102053522,-0.022176311755413958,91

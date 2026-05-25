@@ -1,0 +1,42 @@
+{
+  "num_embedders": 6,
+  "rankings": [
+    {
+      "Rank": 1,
+      "Embedder": "TR Embedding FT (768-dim)",
+      "Avg Acc": 0.7588
+    },
+    {
+      "Rank": 2,
+      "Embedder": "STSB-TR-BERT-Emrecan (768-dim)",
+      "Avg Acc": 0.6961
+    },
+    {
+      "Rank": 3,
+      "Embedder": "TR Embedding Model (768-dim)",
+      "Avg Acc": 0.6683
+    },
+    {
+      "Rank": 4,
+      "Embedder": "Turkish-BERT (768-dim)",
+      "Avg Acc": 0.6453
+    },
+    {
+      "Rank": 5,
+      "Embedder": "Magibu 152M",
+      "Avg Acc": 0.6136
+    },
+    {
+      "Rank": 6,
+      "Embedder": "TurkEmbed4Retrieval-Static",
+      "Avg Acc": 0.5933
+    }
+  ],
+  "statistics": {
+    "avg_accuracy": 0.6625666666666667,
+    "max_accuracy": 0.7588,
+    "min_accuracy": 0.5933,
+    "std_accuracy": 0.05985307566588927
+  },
+  "winner": "TR Embedding FT (768-dim)"
+}

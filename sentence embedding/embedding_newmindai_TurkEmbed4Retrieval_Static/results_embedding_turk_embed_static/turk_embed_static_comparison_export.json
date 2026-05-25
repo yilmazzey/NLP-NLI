@@ -1,0 +1,382 @@
+{
+  "model_name": "newmindai/TurkEmbed4Retrieval-Static",
+  "model_short": "turk_embed_static",
+  "emoji_description": "TurkEmbed4Retrieval Static",
+  "export_timestamp": "2026-05-07T03:15:45.521392",
+  "overall_summary": {
+    "xgboost_vs_lightgbm": [
+      {
+        "Dataset": "snli_tr_1_1",
+        "Split": "train",
+        "XGBoost Acc": 0.6103,
+        "LightGBM Acc": 0.6101,
+        "Winner": "XGB",
+        "Δ": 0.0002
+      },
+      {
+        "Dataset": "snli_tr_1_1",
+        "Split": "validation",
+        "XGBoost Acc": 0.5493,
+        "LightGBM Acc": 0.5666,
+        "Winner": "LGB",
+        "Δ": 0.0173
+      },
+      {
+        "Dataset": "snli_tr_1_1",
+        "Split": "test",
+        "XGBoost Acc": 0.5471,
+        "LightGBM Acc": 0.5435,
+        "Winner": "XGB",
+        "Δ": 0.0036
+      },
+      {
+        "Dataset": "multinli_tr_1_1",
+        "Split": "train",
+        "XGBoost Acc": 0.5405,
+        "LightGBM Acc": 0.5405,
+        "Winner": "XGB",
+        "Δ": 0.0001
+      },
+      {
+        "Dataset": "multinli_tr_1_1",
+        "Split": "validation_matched",
+        "XGBoost Acc": 0.473,
+        "LightGBM Acc": 0.4745,
+        "Winner": "LGB",
+        "Δ": 0.0015
+      },
+      {
+        "Dataset": "multinli_tr_1_1",
+        "Split": "validation_mismatched",
+        "XGBoost Acc": 0.513,
+        "LightGBM Acc": 0.4967,
+        "Winner": "XGB",
+        "Δ": 0.0163
+      },
+      {
+        "Dataset": "trglue_mnli",
+        "Split": "train",
+        "XGBoost Acc": 0.6763,
+        "LightGBM Acc": 0.6795,
+        "Winner": "LGB",
+        "Δ": 0.0032
+      },
+      {
+        "Dataset": "trglue_mnli",
+        "Split": "validation_matched",
+        "XGBoost Acc": 0.6376,
+        "LightGBM Acc": 0.6442,
+        "Winner": "LGB",
+        "Δ": 0.0066
+      },
+      {
+        "Dataset": "trglue_mnli",
+        "Split": "validation_mismatched",
+        "XGBoost Acc": 0.6946,
+        "LightGBM Acc": 0.6864,
+        "Winner": "XGB",
+        "Δ": 0.0082
+      },
+      {
+        "Dataset": "trglue_mnli",
+        "Split": "test_matched",
+        "XGBoost Acc": 0.6321,
+        "LightGBM Acc": 0.6332,
+        "Winner": "LGB",
+        "Δ": 0.0011
+      },
+      {
+        "Dataset": "trglue_mnli",
+        "Split": "test_mismatched",
+        "XGBoost Acc": 0.705,
+        "LightGBM Acc": 0.6958,
+        "Winner": "XGB",
+        "Δ": 0.0092
+      }
+    ]
+  },
+  "per_split_performance": {
+    "snli_tr_1_1": {
+      "train": {
+        "xgboost": {
+          "accuracy": 0.6102845995369104,
+          "f1_macro": 0.6086719482953997,
+          "precision_macro": 0.6096953633037044,
+          "recall_macro": 0.6102602283768092,
+          "n_samples": 548487
+        },
+        "lightgbm": {
+          "accuracy": 0.6100567011249065,
+          "f1_macro": 0.6085488725452616,
+          "precision_macro": 0.6093237029537135,
+          "recall_macro": 0.6100327635808842,
+          "n_samples": 548487
+        }
+      },
+      "validation": {
+        "xgboost": {
+          "accuracy": 0.5492886178861789,
+          "f1_macro": 0.5448819483820196,
+          "precision_macro": 0.5461108259882289,
+          "recall_macro": 0.5482476051968803,
+          "n_samples": 9836
+        },
+        "lightgbm": {
+          "accuracy": 0.5665650406504065,
+          "f1_macro": 0.5621850884207809,
+          "precision_macro": 0.564251744796492,
+          "recall_macro": 0.565533583411917,
+          "n_samples": 9836
+        }
+      },
+      "test": {
+        "xgboost": {
+          "accuracy": 0.5470737913486005,
+          "f1_macro": 0.541870435296391,
+          "precision_macro": 0.5440333808931919,
+          "recall_macro": 0.5454940740035329,
+          "n_samples": 9824
+        },
+        "lightgbm": {
+          "accuracy": 0.5435114503816794,
+          "f1_macro": 0.5397696524444565,
+          "precision_macro": 0.5407032857577896,
+          "recall_macro": 0.5420863935134518,
+          "n_samples": 9824
+        }
+      }
+    },
+    "multinli_tr_1_1": {
+      "train": {
+        "xgboost": {
+          "accuracy": 0.5405247070809984,
+          "f1_macro": 0.5390444718934302,
+          "precision_macro": 0.5451441087810208,
+          "recall_macro": 0.5405320094250322,
+          "n_samples": 392599
+        },
+        "lightgbm": {
+          "accuracy": 0.540461029037188,
+          "f1_macro": 0.5389920864001502,
+          "precision_macro": 0.5445725915821763,
+          "recall_macro": 0.5404686828444473,
+          "n_samples": 392599
+        }
+      },
+      "validation_matched": {
+        "xgboost": {
+          "accuracy": 0.47298674821610603,
+          "f1_macro": 0.46903858970078954,
+          "precision_macro": 0.4737453632483399,
+          "recall_macro": 0.47043893707463935,
+          "n_samples": 9809
+        },
+        "lightgbm": {
+          "accuracy": 0.4745158002038736,
+          "f1_macro": 0.4703836042272817,
+          "precision_macro": 0.4737477141983992,
+          "recall_macro": 0.47157540957887895,
+          "n_samples": 9809
+        }
+      },
+      "validation_mismatched": {
+        "xgboost": {
+          "accuracy": 0.5129770992366413,
+          "f1_macro": 0.5072567789184068,
+          "precision_macro": 0.5102710369635469,
+          "recall_macro": 0.5095137816595994,
+          "n_samples": 9825
+        },
+        "lightgbm": {
+          "accuracy": 0.49669211195928753,
+          "f1_macro": 0.49165747596115755,
+          "precision_macro": 0.4931438340803502,
+          "recall_macro": 0.49342606325362204,
+          "n_samples": 9825
+        }
+      }
+    },
+    "trglue_mnli": {
+      "train": {
+        "xgboost": {
+          "accuracy": 0.6762700411573193,
+          "f1_macro": 0.674274570710048,
+          "precision_macro": 0.68691766412633,
+          "recall_macro": 0.6754886439529105,
+          "n_samples": 162788
+        },
+        "lightgbm": {
+          "accuracy": 0.6794643405614595,
+          "f1_macro": 0.6777753180333305,
+          "precision_macro": 0.6896479992331225,
+          "recall_macro": 0.6787137983462385,
+          "n_samples": 162788
+        }
+      },
+      "validation_matched": {
+        "xgboost": {
+          "accuracy": 0.6375690607734806,
+          "f1_macro": 0.6362181333604053,
+          "precision_macro": 0.6422382589519059,
+          "recall_macro": 0.636057965668765,
+          "n_samples": 9050
+        },
+        "lightgbm": {
+          "accuracy": 0.6441988950276243,
+          "f1_macro": 0.6427743307937406,
+          "precision_macro": 0.6462453459596531,
+          "recall_macro": 0.6426649691551516,
+          "n_samples": 9050
+        }
+      },
+      "validation_mismatched": {
+        "xgboost": {
+          "accuracy": 0.6945652173913044,
+          "f1_macro": 0.6908041744593046,
+          "precision_macro": 0.6940929448894554,
+          "recall_macro": 0.694117291814467,
+          "n_samples": 9200
+        },
+        "lightgbm": {
+          "accuracy": 0.6864130434782608,
+          "f1_macro": 0.6823645594890958,
+          "precision_macro": 0.685239017949271,
+          "recall_macro": 0.6859348795417038,
+          "n_samples": 9200
+        }
+      },
+      "test_matched": {
+        "xgboost": {
+          "accuracy": 0.6320754716981132,
+          "f1_macro": 0.629923477370443,
+          "precision_macro": 0.6366703523048236,
+          "recall_macro": 0.6296219566422762,
+          "n_samples": 9008
+        },
+        "lightgbm": {
+          "accuracy": 0.6331853496115427,
+          "f1_macro": 0.6306366700920744,
+          "precision_macro": 0.6351517909945283,
+          "recall_macro": 0.6304339592710252,
+          "n_samples": 9008
+        }
+      },
+      "test_mismatched": {
+        "xgboost": {
+          "accuracy": 0.7049891540130152,
+          "f1_macro": 0.7035633580055642,
+          "precision_macro": 0.7117384542455648,
+          "recall_macro": 0.7053367681301158,
+          "n_samples": 9217
+        },
+        "lightgbm": {
+          "accuracy": 0.6957700650759219,
+          "f1_macro": 0.6952057143609952,
+          "precision_macro": 0.7016132597264617,
+          "recall_macro": 0.6961897053421512,
+          "n_samples": 9217
+        }
+      }
+    }
+  },
+  "dataset_difficulty_ranking": [
+    {
+      "dataset": "multinli_tr_1_1",
+      "avg_accuracy": 0.48929293990397715,
+      "difficulty_level": "HARD"
+    },
+    {
+      "dataset": "snli_tr_1_1",
+      "avg_accuracy": 0.5516097250667162,
+      "difficulty_level": "MEDIUM"
+    },
+    {
+      "dataset": "trglue_mnli",
+      "avg_accuracy": 0.6660957821336579,
+      "difficulty_level": "EASY"
+    }
+  ],
+  "ood_generalization": {
+    "multinli": {
+      "xgboost": {
+        "matched": 0.47298674821610603,
+        "mismatched": 0.5129770992366413,
+        "delta": -0.03999035102053522
+      },
+      "lightgbm": {
+        "matched": 0.4745158002038736,
+        "mismatched": 0.49669211195928753,
+        "delta": -0.022176311755413958
+      }
+    },
+    "trglue": {
+      "xgboost": {
+        "matched": 0.6320754716981132,
+        "mismatched": 0.7049891540130152,
+        "delta": -0.07291368231490203
+      },
+      "lightgbm": {
+        "matched": 0.6331853496115427,
+        "mismatched": 0.6957700650759219,
+        "delta": -0.06258471546437916
+      }
+    }
+  },
+  "per_label_metrics": {
+    "xgboost": {
+      "precision": [
+        0.5545031571950815,
+        0.6347155657428631,
+        0.5946070523162019
+      ],
+      "recall": [
+        0.6489692726565539,
+        0.6073778664007976,
+        0.5161032206441288
+      ],
+      "f1": [
+        0.5980286738351256,
+        0.6207458732423069,
+        0.5525808524309274
+      ],
+      "labels": [
+        "entailment",
+        "neutral",
+        "contradiction"
+      ],
+      "overall_accuracy": 0.5913829506466086
+    },
+    "lightgbm": {
+      "precision": [
+        0.556968463886063,
+        0.6355527898776188,
+        0.5846292540004507
+      ],
+      "recall": [
+        0.6388564760793466,
+        0.6109670987038883,
+        0.5189037807561512
+      ],
+      "f1": [
+        0.595108695652174,
+        0.6230174867832452,
+        0.5498092412039
+      ],
+      "labels": [
+        "entailment",
+        "neutral",
+        "contradiction"
+      ],
+      "overall_accuracy": 0.5900633412509897
+    }
+  },
+  "confidence_analysis": {
+    "high_confidence_correct": 1488,
+    "high_confidence_wrong": 91,
+    "medium_confidence_correct": 3763,
+    "medium_confidence_wrong": 1773,
+    "low_confidence_correct": 3712,
+    "low_confidence_wrong": 4329,
+    "adversarial_ratio": 0.05763141228625712
+  }
+}

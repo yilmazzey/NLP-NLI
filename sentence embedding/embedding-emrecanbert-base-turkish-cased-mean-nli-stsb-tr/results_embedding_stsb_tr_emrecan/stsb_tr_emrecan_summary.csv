@@ -1,0 +1,2 @@
+Embedder,Model,XGB_Avg_Accuracy,LGB_Avg_Accuracy,XGB_Avg_F1,LGB_Avg_F1,OOD_XGB_Delta,OOD_LGB_Delta,Adversarial_Examples
+stsb_tr_emrecan,emrecan/bert-base-turkish-cased-mean-nli-stsb-tr,0.695480730698803,0.6967404674969777,0.693331649391373,0.6946936169982796,-0.040374753912116534,-0.04546536872329987,216

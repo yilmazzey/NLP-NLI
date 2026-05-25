@@ -1,0 +1,4 @@
+Label,XGB-Precision,XGB-Recall,XGB-F1,LGB-Precision,LGB-Recall,LGB-F1
+entailment,0.5545,0.649,0.598,0.557,0.6389,0.5951
+neutral,0.6347,0.6074,0.6207,0.6356,0.611,0.623
+contradiction,0.5946,0.5161,0.5526,0.5846,0.5189,0.5498

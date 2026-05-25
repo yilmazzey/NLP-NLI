@@ -1,0 +1,208 @@
+{
+  "method": "Sentence Embedding + Boosting",
+  "embedding_model": "magibu/embeddingmagibu-152m",
+  "embedding_dim": 768,
+  "xgboost": {
+    "snli_tr_1_1": {
+      "train": {
+        "accuracy": 0.3463964703093949,
+        "f1_macro": 0.20049631296020257,
+        "precision_macro": 0.5704452053689489,
+        "recall_macro": 0.34672304708543006,
+        "n_samples": 548487,
+        "n_features": 3844,
+        "original_samples": 548487
+      },
+      "validation": {
+        "accuracy": 0.6001016260162602,
+        "f1_macro": 0.5952435699065269,
+        "precision_macro": 0.5957612896801712,
+        "recall_macro": 0.5990302463381282,
+        "n_samples": 9836,
+        "n_features": 3844,
+        "original_samples": 9836
+      },
+      "test": {
+        "accuracy": 0.5964376590330789,
+        "f1_macro": 0.5932136581581294,
+        "precision_macro": 0.5934924870664364,
+        "recall_macro": 0.5950200354017621,
+        "n_samples": 9824,
+        "n_features": 3844,
+        "original_samples": 9824
+      }
+    },
+    "multinli_tr_1_1": {
+      "train": {
+        "accuracy": 0.3333290881304126,
+        "f1_macro": 0.16976413624241518,
+        "precision_macro": 0.31612831819816195,
+        "recall_macro": 0.3332573731453989,
+        "n_samples": 392599,
+        "n_features": 3844,
+        "original_samples": 392599
+      },
+      "validation_matched": {
+        "accuracy": 0.46228338430173294,
+        "f1_macro": 0.4565114970006025,
+        "precision_macro": 0.45814759521506776,
+        "recall_macro": 0.45902103886983875,
+        "n_samples": 9809,
+        "n_features": 3844,
+        "original_samples": 9809
+      },
+      "validation_mismatched": {
+        "accuracy": 0.4870229007633588,
+        "f1_macro": 0.4807991611381473,
+        "precision_macro": 0.48470216652034837,
+        "recall_macro": 0.4832407505872364,
+        "n_samples": 9825,
+        "n_features": 3844,
+        "original_samples": 9825
+      }
+    },
+    "trglue_mnli": {
+      "train": {
+        "accuracy": 0.3378893052398796,
+        "f1_macro": 0.1745490095131782,
+        "precision_macro": 0.5464769992637457,
+        "recall_macro": 0.3358909525560229,
+        "n_samples": 162788,
+        "n_features": 3844,
+        "original_samples": 162788
+      },
+      "validation_matched": {
+        "accuracy": 0.6651933701657459,
+        "f1_macro": 0.6657193555074665,
+        "precision_macro": 0.673901868151897,
+        "recall_macro": 0.6639992336170457,
+        "n_samples": 9050,
+        "n_features": 3844,
+        "original_samples": 9050
+      },
+      "validation_mismatched": {
+        "accuracy": 0.7130434782608696,
+        "f1_macro": 0.7123295672382172,
+        "precision_macro": 0.7170224850894323,
+        "recall_macro": 0.7126394293305705,
+        "n_samples": 9200,
+        "n_features": 3844,
+        "original_samples": 9200
+      },
+      "test_matched": {
+        "accuracy": 0.6570477247502775,
+        "f1_macro": 0.6570839170099033,
+        "precision_macro": 0.6644941595402741,
+        "recall_macro": 0.6551507634953614,
+        "n_samples": 9008,
+        "n_features": 3844,
+        "original_samples": 9008
+      },
+      "test_mismatched": {
+        "accuracy": 0.7169197396963124,
+        "f1_macro": 0.7163951392092702,
+        "precision_macro": 0.721498742184853,
+        "recall_macro": 0.7171958174372781,
+        "n_samples": 9217,
+        "n_features": 3844,
+        "original_samples": 9217
+      }
+    }
+  },
+  "lightgbm": {
+    "snli_tr_1_1": {
+      "train": {
+        "accuracy": 0.3459680212948276,
+        "f1_macro": 0.20001120299615147,
+        "precision_macro": 0.5632356640078732,
+        "recall_macro": 0.34629455019078154,
+        "n_samples": 548487,
+        "n_features": 3844
+      },
+      "validation": {
+        "accuracy": 0.6097560975609756,
+        "f1_macro": 0.6063357452646806,
+        "precision_macro": 0.6066999221054605,
+        "recall_macro": 0.6088130946735785,
+        "n_samples": 9836,
+        "n_features": 3844
+      },
+      "test": {
+        "accuracy": 0.6010178117048346,
+        "f1_macro": 0.5976542953457965,
+        "precision_macro": 0.5977074214044498,
+        "recall_macro": 0.5994806739467098,
+        "n_samples": 9824,
+        "n_features": 3844
+      }
+    },
+    "multinli_tr_1_1": {
+      "train": {
+        "accuracy": 0.33343097300050945,
+        "f1_macro": 0.1698843393225702,
+        "precision_macro": 0.3174037043194609,
+        "recall_macro": 0.3333592461792949,
+        "n_samples": 392599,
+        "n_features": 3844
+      },
+      "validation_matched": {
+        "accuracy": 0.4801223241590214,
+        "f1_macro": 0.47644183707546395,
+        "precision_macro": 0.4776069695768812,
+        "recall_macro": 0.4776428218173125,
+        "n_samples": 9809,
+        "n_features": 3844
+      },
+      "validation_mismatched": {
+        "accuracy": 0.4814249363867684,
+        "f1_macro": 0.47641984265621734,
+        "precision_macro": 0.48047549534668227,
+        "recall_macro": 0.47825569100337956,
+        "n_samples": 9825,
+        "n_features": 3844
+      }
+    },
+    "trglue_mnli": {
+      "train": {
+        "accuracy": 0.3378893052398796,
+        "f1_macro": 0.1746136842616616,
+        "precision_macro": 0.5398897304416969,
+        "recall_macro": 0.33589144411466815,
+        "n_samples": 162788,
+        "n_features": 3844
+      },
+      "validation_matched": {
+        "accuracy": 0.6712707182320442,
+        "f1_macro": 0.6718677065632047,
+        "precision_macro": 0.6790941850967949,
+        "recall_macro": 0.6700855632307245,
+        "n_samples": 9050,
+        "n_features": 3844
+      },
+      "validation_mismatched": {
+        "accuracy": 0.7070652173913043,
+        "f1_macro": 0.7070859507635524,
+        "precision_macro": 0.7125490413041403,
+        "recall_macro": 0.7066711500884085,
+        "n_samples": 9200,
+        "n_features": 3844
+      },
+      "test_matched": {
+        "accuracy": 0.6548279689234184,
+        "f1_macro": 0.655005353639365,
+        "precision_macro": 0.6614519304176328,
+        "recall_macro": 0.6529576493306447,
+        "n_samples": 9008,
+        "n_features": 3844
+      },
+      "test_mismatched": {
+        "accuracy": 0.7147505422993492,
+        "f1_macro": 0.7152852153108255,
+        "precision_macro": 0.7207979262537273,
+        "recall_macro": 0.7150671348601297,
+        "n_samples": 9217,
+        "n_features": 3844
+      }
+    }
+  }
+}
